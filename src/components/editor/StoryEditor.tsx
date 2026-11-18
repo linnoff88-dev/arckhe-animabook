@@ -1,0 +1,240 @@
+'use client';
+import { useState, useCallback, useEffect } from 'react';
+import { useRouter } from 'next/navigation';
+import { StoryData, Scene } from '@/lib/types';
+import { SceneEditorPanel } from './SceneEditorPanel';
+import { EditorToolbar } from './EditorToolbar';
+import { SceneView } from '../reader/SceneView';
+import { HalftoneBackground } from '../reader/HalftoneBackground';
+
+type SaveStatus = 'saved' | 'saving' | 'unsaved' | 'error';
+
+interface StoryEditorProps {
+  initialStory: StoryData;
+  userId: string;
+}
+
+function storyToMarkdown(story: StoryData): string {
+  const lines: string[] = [`# ${story.title}`, ''];
+
+  for (const scene of story.scenes) {
+    const dims = scene.width && scene.height ? ` ${scene.width}x${scene.height}` : '';
+    lines.push(`<!-- scene: ${scene.imageFile}${dims} -->`);
+    lines.push('');
+
+    if (scene.narrator) {
+      lines.push(`> ${scene.narrator}`);
+      lines.push('');
+    }
+
+    for (const bubble of scene.bubbles) {
+      const pos = bubble.position ?? 'esq';
+      const xPart = bubble.x !== undefined ? ` x=${bubble.x.toFixed(3)}` : '';
+      const yPart = bubble.y !== undefined ? ` y=${bubble.y.toFixed(3)}` : '';
+      lines.push(`[${bubble.character}@${pos}${xPart}${yPart}]: ${bubble.text}`);
+    }
+
+    if (scene.bubbles.length > 0) lines.push('');
+  }
+
+  return lines.join('\n');
+}
+
+export function StoryEditor({ initialStory, userId: _userId }: StoryEditorProps) {
+  const router = useRouter();
+  const [story, setStory] = useState<StoryData>(initialStory);
+  const [currentScene, setCurrentScene] = useState(0);
+  const [saveStatus, setSaveStatus] = useState<SaveStatus>('saved');
+  const [publishing, setPublishing] = useState(false);
+
+  const scene = story.scenes[currentScene];
+
+  const updateScene = useCallback((updater: (scene: Scene) => Scene) => {
+    setStory(prev => ({
+      ...prev,
+      scenes: prev.scenes.map((s, i) => (i === currentScene ? updater(s) : s)),
+    }));
+    setSaveStatus('unsaved');
+  }, [currentScene]);
+
+  const handleNarratorChange = useCallback(
+    (text: string) => updateScene(s => ({ ...s, narrator: text })),
+    [updateScene]
+  );
+
+  const handleBubbleChange = useCallback(
+    (index: number, field: 'character' | 'text', value: string) =>
+      updateScene(s => ({
+        ...s,
+        bubbles: s.bubbles.map((b, i) => (i === index ? { ...b, [field]: value } : b)),
+      })),
+    [updateScene]
+  );
+
+  const handleBubblePosition = useCallback(
+    (index: number, position: 'esq' | 'dir') =>
+      updateScene(s => ({
+        ...s,
+        bubbles: s.bubbles.map((b, i) => (i === index ? { ...b, position } : b)),
+      })),
+    [updateScene]
+  );
+
+  const handleBubbleMove = useCallback(
+    (index: number, x: number, y: number) =>
+      updateScene(s => ({
+        ...s,
+        bubbles: s.bubbles.map((b, i) => (i === index ? { ...b, x, y } : b)),
+      })),
+    [updateScene]
+  );
+
+  const handleAddBubble = useCallback(
+    () =>
+      updateScene(s => ({
+        ...s,
+        bubbles: [...s.bubbles, { character: '', text: '', position: 'esq' as const }],
+      })),
+    [updateScene]
+  );
+
+  const handleRemoveBubble = useCallback(
+    (index: number) =>
+      updateScene(s => ({
+        ...s,
+        bubbles: s.bubbles.filter((_, i) => i !== index),
+      })),
+    [updateScene]
+  );
+
+  const getToken = useCallback(async (): Promise<string | null> => {
+    const { createSupabaseBrowserClient } = await import('@/lib/supabase-browser');
+    const sb = createSupabaseBrowserClient();
+    const { data: { session } } = await sb.auth.getSession();
+    return session?.access_token ?? null;
+  }, []);
+
+  const handleSave = useCallback(async () => {
+    setSaveStatus('saving');
+    try {
+      const content = storyToMarkdown(story);
+      const token = await getToken();
+      const res = await fetch(`/api/story/${story.bookId}`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          ...(token ? { 'Authorization': `Bearer ${token}` } : {}),
+        },
+        body: JSON.stringify({ content }),
+      });
+      if (!res.ok) throw new Error('Falha ao salvar');
+      setSaveStatus('saved');
+    } catch {
+      setSaveStatus('error');
+    }
+  }, [story, getToken]);
+
+  const handleReset = useCallback(async () => {
+    try {
+      const token = await getToken();
+      // Deleta o rascunho do Supabase para este livro
+      await fetch(`/api/story/${story.bookId}`, {
+        method: 'DELETE',
+        headers: token ? { 'Authorization': `Bearer ${token}` } : {},
+      });
+    } catch {
+      // ignora erro de rede, recarrega mesmo assim
+    }
+    router.refresh();
+  }, [story.bookId, getToken, router]);
+
+  const handlePublish = useCallback(async () => {
+    setPublishing(true);
+    try {
+      const content = storyToMarkdown(story);
+      const token = await getToken();
+      if (!token) throw new Error('Não autenticado');
+      const res = await fetch(`/api/story/${story.bookId}/publish`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'Authorization': `Bearer ${token}`,
+        },
+        body: JSON.stringify({ content }),
+      });
+      const json = await res.json();
+      if (!res.ok) throw new Error(json.error ?? `HTTP ${res.status}`);
+      router.push(`/publication/${json.id}`);
+    } catch (err) {
+      setPublishing(false);
+      alert('Erro ao publicar: ' + (err instanceof Error ? err.message : String(err)));
+    }
+  }, [story, getToken, router]);
+
+  useEffect(() => {
+    const handler = (e: KeyboardEvent) => {
+      if ((e.ctrlKey || e.metaKey) && e.key === 's') {
+        e.preventDefault();
+        handleSave();
+      }
+    };
+    window.addEventListener('keydown', handler);
+    return () => window.removeEventListener('keydown', handler);
+  }, [handleSave]);
+
+  return (
+    <div className="min-h-dvh flex flex-col" style={{ background: '#0a0612' }}>
+      <HalftoneBackground />
+
+      <div className="relative z-10 flex flex-col min-h-dvh">
+        <EditorToolbar
+          bookId={story.bookId}
+          currentScene={currentScene}
+          totalScenes={story.scenes.length}
+          saveStatus={saveStatus}
+          publishing={publishing}
+          onPrev={() => setCurrentScene(p => Math.max(0, p - 1))}
+          onNext={() => setCurrentScene(p => Math.min(story.scenes.length - 1, p + 1))}
+          onSave={handleSave}
+          onPublish={handlePublish}
+          onReset={handleReset}
+        />
+
+        <div className="flex flex-col lg:flex-row lg:overflow-hidden lg:flex-1">
+          {/* Preview */}
+          <div
+            className="lg:flex-1 lg:overflow-y-auto p-2"
+            style={{ background: 'linear-gradient(135deg, #1a0a2e 0%, #0f1a3d 100%)' }}
+          >
+            {scene && (
+              <div style={{ maxWidth: '900px', margin: '0 auto' }}>
+                <SceneView scene={scene} isTransitioning={false} onBubbleMove={handleBubbleMove} />
+              </div>
+            )}
+          </div>
+
+          {/* Editor panel — mesma altura que o preview no desktop, 45dvh no mobile */}
+          <div
+            className="w-full lg:w-72 border-t lg:border-t-0 lg:border-l overflow-y-auto max-h-[45dvh] lg:max-h-none"
+            style={{
+              borderColor: 'rgba(232,200,74,0.2)',
+              background: 'rgba(10,6,18,0.95)',
+              minHeight: '200px',
+            }}
+          >
+            {scene && (
+              <SceneEditorPanel
+                scene={scene}
+                onNarratorChange={handleNarratorChange}
+                onBubbleChange={handleBubbleChange}
+                onBubblePosition={handleBubblePosition}
+                onAddBubble={handleAddBubble}
+                onRemoveBubble={handleRemoveBubble}
+              />
+            )}
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}

@@ -1,0 +1,444 @@
+'use client';
+import { useState, useEffect, useRef } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
+import { StoryData, Comment } from '@/lib/types';
+import { BookReader } from '@/components/reader/BookReader';
+import { LikeButton } from './LikeButton';
+import { CommentSection } from './CommentSection';
+import { createSupabaseBrowserClient } from '@/lib/supabase-browser';
+
+export interface PubSummary {
+  id: string;
+  authorId: string;
+  authorName: string;
+  publishedAt: string;
+  likesCount: number;
+}
+
+interface PubData {
+  story: StoryData;
+  likesCount: number;
+  userLiked: boolean;
+  comments: Comment[];
+}
+
+interface Props {
+  baseStory: StoryData;
+  synopsis: string;
+  publications: PubSummary[];
+  isLoggedIn: boolean;
+  userId: string | null;
+  username: string | null;
+  isDevMode: boolean;
+}
+
+function initials(name: string) {
+  return name.slice(0, 2).toUpperCase();
+}
+
+function relativeDate(iso: string) {
+  const d = new Date(iso);
+  const now = new Date();
+  const diff = Math.floor((now.getTime() - d.getTime()) / 86400000);
+  if (diff === 0) return 'hoje';
+  if (diff === 1) return 'ontem';
+  if (diff < 7) return `${diff}d`;
+  if (diff < 30) return `${Math.floor(diff / 7)}sem`;
+  return `${Math.floor(diff / 30)}m`;
+}
+
+const COLORS = ['#e8c84a', '#a78bfa', '#4ade80', '#f43f5e', '#60a5fa', '#fb923c'];
+
+export function BookPageClient({ baseStory, synopsis, publications: initialPublications, isLoggedIn, userId, username, isDevMode }: Props) {
+  const [pubs, setPubs] = useState(initialPublications);
+  const [selectedId, setSelectedId] = useState<string | null>(null);
+  const [pubData, setPubData] = useState<PubData | null>(null);
+  const [loading, setLoading] = useState(false);
+  const [open, setOpen] = useState(false);
+  const socialRef = useRef<HTMLDivElement>(null);
+
+  // Abre sidebar automaticamente apenas em desktop (≥768px)
+  useEffect(() => {
+    if (pubs.length > 0 && window.innerWidth >= 768) setOpen(true);
+  }, [pubs.length]);
+
+  async function deletePub(pubId: string) {
+    if (!confirm('Excluir esta publicação? Esta ação não pode ser desfeita.')) return;
+    const sb = createSupabaseBrowserClient();
+    const { data: { session } } = await sb.auth.getSession();
+    if (!session?.access_token) return;
+    const res = await fetch(`/api/publication/${pubId}`, {
+      method: 'DELETE',
+      headers: { 'Authorization': `Bearer ${session.access_token}` },
+    });
+    if (res.ok) {
+      setPubs(prev => prev.filter(p => p.id !== pubId));
+      if (selectedId === pubId) { setSelectedId(null); setPubData(null); }
+    }
+  }
+
+  async function selectPub(pubId: string | null) {
+    if (pubId === null) {
+      setSelectedId(null);
+      setPubData(null);
+      return;
+    }
+    if (pubId === selectedId) {
+      socialRef.current?.scrollIntoView({ behavior: 'smooth' });
+      return;
+    }
+
+    setSelectedId(pubId);
+    setPubData(null);
+    setLoading(true);
+
+    const sb = createSupabaseBrowserClient();
+    const { data: { session } } = await sb.auth.getSession();
+    const headers: Record<string, string> = {};
+    if (session?.access_token) headers['Authorization'] = `Bearer ${session.access_token}`;
+
+    const res = await fetch(`/api/publication/${pubId}`, { headers });
+    if (res.ok) setPubData(await res.json());
+    setLoading(false);
+  }
+
+  const story = pubData?.story ?? baseStory;
+  const selectedPub = pubs.find(p => p.id === selectedId);
+
+  return (
+    <div style={{ position: 'relative' }}>
+
+      {/* ───── Sidebar ───── */}
+      {pubs.length > 0 && (
+        <>
+          {/* Botão toggle — sempre visível na borda esquerda */}
+          <button
+            onClick={() => setOpen(v => !v)}
+            title={open ? 'Fechar lista' : `${pubs.length} publicação(ões)`}
+            style={{
+              position: 'fixed',
+              left: open ? 176 : 0,
+              top: '50%',
+              transform: 'translateY(-50%)',
+              zIndex: 110,
+              width: '22px',
+              height: '64px',
+              background: 'rgba(232,200,74,0.18)',
+              border: '1.5px solid rgba(232,200,74,0.5)',
+              borderLeft: open ? '1.5px solid rgba(232,200,74,0.5)' : 'none',
+              borderRadius: open ? '0 8px 8px 0' : '0 8px 8px 0',
+              color: '#e8c84a',
+              fontSize: '14px',
+              cursor: 'pointer',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              transition: 'left 0.25s ease',
+              backdropFilter: 'blur(8px)',
+            }}
+          >
+            {open ? '‹' : '›'}
+          </button>
+
+          {/* Painel lateral */}
+          <AnimatePresence>
+            {open && (
+              <motion.div
+                initial={{ x: -200, opacity: 0 }}
+                animate={{ x: 0, opacity: 1 }}
+                exit={{ x: -200, opacity: 0 }}
+                transition={{ type: 'spring', stiffness: 300, damping: 30 }}
+                style={{
+                  position: 'fixed',
+                  left: 0,
+                  top: 0,
+                  bottom: 0,
+                  width: '176px',
+                  zIndex: 100,
+                  display: 'flex',
+                  flexDirection: 'column',
+                  background: 'rgba(10,6,18,0.93)',
+                  borderRight: '1.5px solid rgba(232,200,74,0.25)',
+                  backdropFilter: 'blur(16px)',
+                  overflowY: 'auto',
+                }}
+              >
+                {/* Header */}
+                <div style={{
+                  padding: '16px 12px 10px',
+                  borderBottom: '1px solid rgba(232,200,74,0.15)',
+                  flexShrink: 0,
+                }}>
+                  <p style={{
+                    fontFamily: 'var(--font-bangers)',
+                    fontSize: '13px',
+                    letterSpacing: '0.1em',
+                    color: 'rgba(232,200,74,0.5)',
+                    margin: '0 0 6px',
+                  }}>
+                    PUBLICAÇÕES
+                  </p>
+                  {/* Original */}
+                  <button
+                    onClick={() => selectPub(null)}
+                    style={{
+                      width: '100%',
+                      textAlign: 'left',
+                      padding: '6px 8px',
+                      borderRadius: '8px',
+                      border: `1.5px solid ${selectedId === null ? 'rgba(232,200,74,0.6)' : 'transparent'}`,
+                      background: selectedId === null ? 'rgba(232,200,74,0.12)' : 'transparent',
+                      cursor: 'pointer',
+                      display: 'flex',
+                      alignItems: 'center',
+                      gap: '8px',
+                    }}
+                  >
+                    <span style={{ fontSize: '16px' }}>📖</span>
+                    <span style={{
+                      fontFamily: 'var(--font-nunito)',
+                      fontSize: '14px',
+                      color: selectedId === null ? '#e8c84a' : 'rgba(245,240,232,0.55)',
+                      fontWeight: selectedId === null ? 700 : 400,
+                    }}>
+                      Original
+                    </span>
+                  </button>
+                </div>
+
+                {/* Lista de publicações */}
+                <div style={{ flex: 1, padding: '8px', display: 'flex', flexDirection: 'column', gap: '4px' }}>
+                  {(() => {
+                    // Conta quantas vezes cada autor aparece para numerar versões
+                    const authorCount: Record<string, number> = {};
+                    const authorIndex: Record<string, number> = {};
+                    pubs.forEach(p => { authorCount[p.authorName] = (authorCount[p.authorName] ?? 0) + 1; });
+                    return pubs.map((pub, i) => {
+                    const color = COLORS[i % COLORS.length];
+                    const isSelected = selectedId === pub.id;
+                    const multiVersion = authorCount[pub.authorName] > 1;
+                    authorIndex[pub.authorName] = (authorIndex[pub.authorName] ?? 0) + 1;
+                    const versionLabel = multiVersion ? ` v${authorIndex[pub.authorName]}` : '';
+                    return (
+                      <div
+                        key={pub.id}
+                        style={{
+                          width: '100%',
+                          padding: '8px',
+                          borderRadius: '10px',
+                          border: `1.5px solid ${isSelected ? color : 'transparent'}`,
+                          background: isSelected ? `rgba(${hexRgb(color)},0.12)` : 'rgba(255,255,255,0.03)',
+                          display: 'flex',
+                          alignItems: 'flex-start',
+                          gap: '8px',
+                          transition: 'all 0.15s',
+                          position: 'relative',
+                        }}
+                      >
+                      <button
+                        onClick={() => selectPub(pub.id)}
+                        style={{
+                          flex: 1,
+                          textAlign: 'left',
+                          background: 'transparent',
+                          border: 'none',
+                          cursor: 'pointer',
+                          display: 'flex',
+                          alignItems: 'flex-start',
+                          gap: '8px',
+                          padding: 0,
+                        }}
+                      >
+                        {/* Avatar */}
+                        <div style={{
+                          width: '28px',
+                          height: '28px',
+                          borderRadius: '50%',
+                          background: `rgba(${hexRgb(color)},0.2)`,
+                          border: `1.5px solid ${color}`,
+                          display: 'flex',
+                          alignItems: 'center',
+                          justifyContent: 'center',
+                          fontFamily: 'var(--font-bangers)',
+                          fontSize: '11px',
+                          color,
+                          flexShrink: 0,
+                        }}>
+                          {initials(pub.authorName)}
+                        </div>
+
+                        {/* Info */}
+                        <div style={{ flex: 1, minWidth: 0 }}>
+                          <div style={{
+                            fontFamily: 'var(--font-nunito)',
+                            fontSize: '14px',
+                            fontWeight: 700,
+                            color: isSelected ? color : '#f5f0e8',
+                            whiteSpace: 'nowrap',
+                            overflow: 'hidden',
+                            textOverflow: 'ellipsis',
+                          }}>
+                            {pub.authorName}
+                            {versionLabel && (
+                              <span style={{
+                                fontFamily: 'var(--font-bangers)',
+                                fontSize: '11px',
+                                letterSpacing: '0.04em',
+                                color: '#1a0a2e',
+                                background: color,
+                                borderRadius: '6px',
+                                padding: '1px 5px',
+                                marginLeft: '5px',
+                                verticalAlign: 'middle',
+                                display: 'inline-block',
+                                lineHeight: 1.4,
+                              }}>
+                                {versionLabel.trim()}
+                              </span>
+                            )}
+                          </div>
+                          <div style={{
+                            display: 'flex',
+                            gap: '6px',
+                            alignItems: 'center',
+                            marginTop: '2px',
+                          }}>
+                            <span style={{ fontFamily: 'var(--font-nunito)', fontSize: '12px', color: 'rgba(245,240,232,0.4)' }}>
+                              {relativeDate(pub.publishedAt)}
+                            </span>
+                            {pub.likesCount > 0 && (
+                              <span style={{ fontFamily: 'var(--font-nunito)', fontSize: '12px', color: 'rgba(244,63,94,0.7)' }}>
+                                ❤️ {pub.likesCount}
+                              </span>
+                            )}
+                          </div>
+                        </div>
+                      </button>
+                      {userId === pub.authorId && (
+                        <button
+                          onClick={() => deletePub(pub.id)}
+                          title="Excluir publicação"
+                          style={{
+                            background: 'none',
+                            border: 'none',
+                            cursor: 'pointer',
+                            color: 'rgba(248,113,113,0.5)',
+                            fontSize: '13px',
+                            padding: '2px 4px',
+                            flexShrink: 0,
+                            lineHeight: 1,
+                          }}
+                        >
+                          ✕
+                        </button>
+                      )}
+                      </div>
+                    );
+                  });})()}
+                </div>
+              </motion.div>
+            )}
+          </AnimatePresence>
+        </>
+      )}
+
+      {/* ───── Reader ───── */}
+      <BookReader
+        story={story}
+        isDevMode={isDevMode}
+        isLoggedIn={isLoggedIn}
+        synopsis={synopsis}
+        publicationMeta={selectedPub
+          ? { author: selectedPub.authorName, bookId: baseStory.bookId, publicationId: selectedPub.id }
+          : undefined}
+      />
+
+      {/* ───── Social (likes + comentários) ou Sinopse do Original ───── */}
+      <AnimatePresence mode="wait">
+        {!selectedId && synopsis ? (
+          <motion.div
+            key="synopsis"
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: 20 }}
+            style={{
+              background: 'linear-gradient(135deg, #1a0a2e 0%, #0f1a3d 100%)',
+              padding: '28px 16px 52px',
+              borderTop: '1px solid rgba(232,200,74,0.15)',
+            }}
+          >
+            <div style={{ maxWidth: '840px', margin: '0 auto' }}>
+              <p style={{
+                fontFamily: 'var(--font-bangers)',
+                fontSize: '13px',
+                letterSpacing: '0.1em',
+                color: 'rgba(232,200,74,0.5)',
+                margin: '0 0 10px',
+              }}>
+                SOBRE ESTE EPISÓDIO
+              </p>
+              <p style={{
+                fontFamily: 'var(--font-nunito)',
+                fontSize: '17px',
+                lineHeight: 1.75,
+                color: 'rgba(245,240,232,0.8)',
+                margin: 0,
+                whiteSpace: 'pre-wrap',
+              }}>
+                {synopsis}
+              </p>
+            </div>
+          </motion.div>
+        ) : selectedId ? (
+          <motion.div
+            key="social"
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: 20 }}
+            style={{
+              background: 'linear-gradient(135deg, #1a0a2e 0%, #0f1a3d 100%)',
+              padding: '28px 16px 52px',
+            }}
+          >
+            <div style={{ maxWidth: '840px', margin: '0 auto' }}>
+              {loading ? (
+                <p style={{ fontFamily: 'var(--font-nunito)', color: 'rgba(245,240,232,0.4)', fontSize: '14px' }}>
+                  Carregando…
+                </p>
+              ) : pubData ? (
+                <>
+                  <div style={{ marginBottom: '24px' }}>
+                    <LikeButton
+                      publicationId={selectedId}
+                      initialCount={pubData.likesCount}
+                      initialLiked={pubData.userLiked}
+                      userId={userId}
+                    />
+                    {!isLoggedIn && (
+                      <p style={{ fontFamily: 'var(--font-nunito)', fontSize: '12px', color: 'rgba(245,240,232,0.4)', marginTop: '6px' }}>
+                        <a href={`/login?next=/book/${baseStory.bookId}`} style={{ color: '#e8c84a' }}>Entre</a> para curtir.
+                      </p>
+                    )}
+                  </div>
+                  <CommentSection
+                    publicationId={selectedId}
+                    initialComments={pubData.comments}
+                    userId={userId}
+                    username={username}
+                  />
+                </>
+              ) : null}
+            </div>
+          </motion.div>
+        ) : null}
+      </AnimatePresence>
+    </div>
+  );
+}
+
+function hexRgb(hex: string): string {
+  const r = parseInt(hex.slice(1, 3), 16);
+  const g = parseInt(hex.slice(3, 5), 16);
+  const b = parseInt(hex.slice(5, 7), 16);
+  return `${r},${g},${b}`;
+}
