@@ -1,4 +1,4 @@
-﻿# Animabook
+# Animabook
 
 [![Animabook â€” estante de livros](doc/preview.jpg)](https://animabook.vercel.app)
 
@@ -195,4 +195,4 @@ git push   # Vercel faz build + deploy automaticamente (~90s)
 
 ---
 
-Projeto adaptado da comunidade INEMA TDS - Marca Arckhe
+Projeto adaptado da comunidade ARCKHÉ TDS - Marca Arckhe

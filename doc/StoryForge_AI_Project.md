@@ -1,127 +1,127 @@
-# 🎬 StoryForge AI
+# ðŸŽ¬ StoryForge AI
 
-Sistema de Criação Automatizada de Séries com IA
+Sistema de CriaÃ§Ã£o Automatizada de SÃ©ries com IA
 
 ------------------------------------------------------------------------
 
-# 📌 Visão Geral
+# ðŸ“Œ VisÃ£o Geral
 
-StoryForge AI é uma plataforma que permite:
+StoryForge AI Ã© uma plataforma que permite:
 
-1.  Criar um projeto de série
-2.  Gerar mundo, personagens e episódios automaticamente
+1.  Criar um projeto de sÃ©rie
+2.  Gerar mundo, personagens e episÃ³dios automaticamente
 3.  Editar e aprovar cada etapa
 4.  Gerar roteiro
 5.  Gerar imagens
-6.  Gerar áudio
-7.  Gerar música
-8.  Gerar vídeo
-9.  Fazer montagem final automática
+6.  Gerar Ã¡udio
+7.  Gerar mÃºsica
+8.  Gerar vÃ­deo
+9.  Fazer montagem final automÃ¡tica
 
 Fluxo estruturado em 10 etapas.
 
 ------------------------------------------------------------------------
 
-# 🏗️ Estrutura do Projeto
+# ðŸ—ï¸ Estrutura do Projeto
 
-Cada projeto contém:
+Cada projeto contÃ©m:
 
-Projeto_X/ ├── 1_Descricao_Geral ├── 2_Mundo ├── 3_Personagens ├──
-4_Arco_Temporada ├── 5_Lista_Episodios ├── 6_Episodio_Selecionado ├──
-7_Roteiro_Aprovado ├── 8_Audio_Imagens ├── 9_Video_Cenas └──
+Projeto_X/ â”œâ”€â”€ 1_Descricao_Geral â”œâ”€â”€ 2_Mundo â”œâ”€â”€ 3_Personagens â”œâ”€â”€
+4_Arco_Temporada â”œâ”€â”€ 5_Lista_Episodios â”œâ”€â”€ 6_Episodio_Selecionado â”œâ”€â”€
+7_Roteiro_Aprovado â”œâ”€â”€ 8_Audio_Imagens â”œâ”€â”€ 9_Video_Cenas â””â”€â”€
 10_Montagem_Final
 
 ------------------------------------------------------------------------
 
-# 🔁 Fluxo de Execução (1 → 10)
+# ðŸ” Fluxo de ExecuÃ§Ã£o (1 â†’ 10)
 
-## 1️⃣ Descrição Geral
+## 1ï¸âƒ£ DescriÃ§Ã£o Geral
 
-Usuário escreve ideia base.
+UsuÃ¡rio escreve ideia base.
 
-Sistema gera: - Tema - Gênero - Público-alvo - Tom narrativo -
-Referências
+Sistema gera: - Tema - GÃªnero - PÃºblico-alvo - Tom narrativo -
+ReferÃªncias
 
-Status possíveis: - draft - generated - edited - approved
+Status possÃ­veis: - draft - generated - edited - approved
 
 ------------------------------------------------------------------------
 
-## 2️⃣ Mundo
+## 2ï¸âƒ£ Mundo
 
-Sistema gera: - Ano - Ambientação - Tecnologia - Regras do universo -
+Sistema gera: - Ano - AmbientaÃ§Ã£o - Tecnologia - Regras do universo -
 Conflitos globais
 
 ------------------------------------------------------------------------
 
-## 3️⃣ Personagens
+## 3ï¸âƒ£ Personagens
 
-Sistema gera: - Protagonista - Antagonista - Secundários - Conflitos
-internos - Motivação
+Sistema gera: - Protagonista - Antagonista - SecundÃ¡rios - Conflitos
+internos - MotivaÃ§Ã£o
 
-Usuário pode editar e aprovar.
+UsuÃ¡rio pode editar e aprovar.
 
 ------------------------------------------------------------------------
 
-## 4️⃣ Arco da Temporada
+## 4ï¸âƒ£ Arco da Temporada
 
-Sistema gera: - Conflito central - Mistério principal - Clímax - Final
+Sistema gera: - Conflito central - MistÃ©rio principal - ClÃ­max - Final
 da temporada
 
 ------------------------------------------------------------------------
 
-## 5️⃣ Lista de Episódios
+## 5ï¸âƒ£ Lista de EpisÃ³dios
 
-Sistema gera 5--10 episódios:
+Sistema gera 5--10 episÃ³dios:
 
--   Ep 1 -- Título
--   Ep 2 -- Título
--   Ep 3 -- Título
+-   Ep 1 -- TÃ­tulo
+-   Ep 2 -- TÃ­tulo
+-   Ep 3 -- TÃ­tulo
 -   ...
 
-Usuário pode: - Criar novo - Reordenar - Apagar - Selecionar episódio
+UsuÃ¡rio pode: - Criar novo - Reordenar - Apagar - Selecionar episÃ³dio
 
 ------------------------------------------------------------------------
 
-## 6️⃣ Episódio Selecionado
+## 6ï¸âƒ£ EpisÃ³dio Selecionado
 
 Sistema gera: - Sinopse detalhada - Estrutura em 3 atos - Cliffhanger
 
-Após aprovação → libera roteiro completo.
+ApÃ³s aprovaÃ§Ã£o â†’ libera roteiro completo.
 
 ------------------------------------------------------------------------
 
-## 7️⃣ Roteiro Completo
+## 7ï¸âƒ£ Roteiro Completo
 
 Formato profissional:
 
-INT. LABORATÓRIO -- NOITE
+INT. LABORATÃ“RIO -- NOITE
 
-CAEL: (voz baixa) --- Isso não é um eco.
+CAEL: (voz baixa) --- Isso nÃ£o Ã© um eco.
 
-Inclui: - Divisão por cenas - Descrição visual - Emoção - Movimentos de
-câmera - Duração estimada
+Inclui: - DivisÃ£o por cenas - DescriÃ§Ã£o visual - EmoÃ§Ã£o - Movimentos de
+cÃ¢mera - DuraÃ§Ã£o estimada
 
 ------------------------------------------------------------------------
 
-## 8️⃣ Geração de Mídia
+## 8ï¸âƒ£ GeraÃ§Ã£o de MÃ­dia
 
 Para cada cena:
 
-### 🎨 Imagem
+### ðŸŽ¨ Imagem
 
 -   Prompt estruturado
 -   Estilo consistente
 -   Seed fixa para personagens
 
-### 🎙️ Áudio
+### ðŸŽ™ï¸ Ãudio
 
 -   Voz por personagem
--   Emoção ajustada
+-   EmoÃ§Ã£o ajustada
 -   Sons ambiente
 
-### 🎵 Música
+### ðŸŽµ MÃºsica
 
--   Trilha cinematográfica
+-   Trilha cARCKHÉtogrÃ¡fica
 -   Loop base ou faixa completa
 
 Arquivos organizados:
@@ -130,27 +130,27 @@ Arquivos organizados:
 
 ------------------------------------------------------------------------
 
-## 9️⃣ Geração de Vídeo
+## 9ï¸âƒ£ GeraÃ§Ã£o de VÃ­deo
 
-Processo: - Animar imagens - Sincronizar áudio - Inserir música -
-Adicionar transições
+Processo: - Animar imagens - Sincronizar Ã¡udio - Inserir mÃºsica -
+Adicionar transiÃ§Ãµes
 
-Ferramentas possíveis: - FFmpeg - MoviePy - Runway API - Pika API
+Ferramentas possÃ­veis: - FFmpeg - MoviePy - Runway API - Pika API
 
-Saídas: - MP4 horizontal - MP4 vertical - Trailer automático
+SaÃ­das: - MP4 horizontal - MP4 vertical - Trailer automÃ¡tico
 
 ------------------------------------------------------------------------
 
-## 🔟 Montagem Final
+## ðŸ”Ÿ Montagem Final
 
-Sistema: - Junta cenas - Equaliza áudio - Aplica LUT cinematográfico -
-Adiciona créditos - Exporta versão final
+Sistema: - Junta cenas - Equaliza Ã¡udio - Aplica LUT cARCKHÉtogrÃ¡fico -
+Adiciona crÃ©ditos - Exporta versÃ£o final
 
 Status final: - rendered - final
 
 ------------------------------------------------------------------------
 
-# 🧠 Arquitetura Técnica
+# ðŸ§  Arquitetura TÃ©cnica
 
 ## Backend
 
@@ -161,11 +161,11 @@ Status final: - rendered - final
 
 Inicial: - SQLite local
 
-Produção: - Supabase (PostgreSQL)
+ProduÃ§Ã£o: - Supabase (PostgreSQL)
 
 ------------------------------------------------------------------------
 
-# 🗄️ Estrutura de Banco (Supabase)
+# ðŸ—„ï¸ Estrutura de Banco (Supabase)
 
 ## Tabela: projects
 
@@ -211,7 +211,7 @@ Produção: - Supabase (PostgreSQL)
 
 ------------------------------------------------------------------------
 
-# 🤖 APIs Integradas
+# ðŸ¤– APIs Integradas
 
 ## LLM (roteiro)
 
@@ -226,19 +226,19 @@ Produção: - Supabase (PostgreSQL)
 -   Leonardo
 -   OpenAI Images
 
-## Áudio
+## Ãudio
 
 -   ElevenLabs
 -   OpenAI TTS
 -   PlayHT
 
-## Música
+## MÃºsica
 
 -   Suno
 -   Udio
 -   Stable Audio
 
-## Vídeo
+## VÃ­deo
 
 -   Runway
 -   Pika
@@ -246,7 +246,7 @@ Produção: - Supabase (PostgreSQL)
 
 ------------------------------------------------------------------------
 
-# 🌐 Interface
+# ðŸŒ Interface
 
 ## Web (principal)
 
@@ -256,42 +256,42 @@ Produção: - Supabase (PostgreSQL)
 
 Menu lateral:
 
-\[1\] Descrição \[2\] Mundo \[3\] Personagens \[4\] Arco \[5\] Episódios
-\[6\] Episódio Atual \[7\] Roteiro \[8\] Mídia \[9\] Vídeo \[10\] Final
+\[1\] DescriÃ§Ã£o \[2\] Mundo \[3\] Personagens \[4\] Arco \[5\] EpisÃ³dios
+\[6\] EpisÃ³dio Atual \[7\] Roteiro \[8\] MÃ­dia \[9\] VÃ­deo \[10\] Final
 
 ------------------------------------------------------------------------
 
-## Telegram (extensão)
+## Telegram (extensÃ£o)
 
-Permite: - Criar projeto - Aprovar etapas - Gerar novo episódio -
-Receber vídeo final
+Permite: - Criar projeto - Aprovar etapas - Gerar novo episÃ³dio -
+Receber vÃ­deo final
 
 ------------------------------------------------------------------------
 
-# 🔄 Sistema de Status
+# ðŸ”„ Sistema de Status
 
 draft generated edited approved rendered final
 
-Cada etapa só desbloqueia a próxima quando estiver `approved`.
+Cada etapa sÃ³ desbloqueia a prÃ³xima quando estiver `approved`.
 
 ------------------------------------------------------------------------
 
-# 🚀 Roadmap de Desenvolvimento
+# ðŸš€ Roadmap de Desenvolvimento
 
 ## Fase 1
 
 -   Backend
 -   Banco
--   Geração de roteiro
+-   GeraÃ§Ã£o de roteiro
 
 ## Fase 2
 
 -   Imagem
--   Áudio
+-   Ãudio
 
 ## Fase 3
 
--   Vídeo automático
+-   VÃ­deo automÃ¡tico
 
 ## Fase 4
 
@@ -299,14 +299,14 @@ Cada etapa só desbloqueia a próxima quando estiver `approved`.
 
 ------------------------------------------------------------------------
 
-# 🎯 Objetivo Final
+# ðŸŽ¯ Objetivo Final
 
 Criar um:
 
-🎬 Estúdio Automatizado de Séries com IA
+ðŸŽ¬ EstÃºdio Automatizado de SÃ©ries com IA
 
 Possibilidades: - SaaS - Ferramenta para criadores - Plataforma de anime
-IA - Gerador de novelas IA - Sistema de produção automatizada
+IA - Gerador de novelas IA - Sistema de produÃ§Ã£o automatizada
 
 ------------------------------------------------------------------------
 

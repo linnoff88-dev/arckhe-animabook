@@ -59,7 +59,7 @@ export function BookShelf({ books, videos, isLoggedIn, username, visitStats }: B
   }
 
   async function handleDeleteAccount() {
-    if (!confirm('Tem certeza que quer excluir sua conta? Esta ação não pode ser desfeita.')) return;
+    if (!confirm('Tem certeza que quer excluir sua conta? Esta aÃ§Ã£o nÃ£o pode ser desfeita.')) return;
     const supabase = createSupabaseBrowserClient();
     const { data: { session } } = await supabase.auth.getSession();
     if (!session?.access_token) return;
@@ -82,7 +82,7 @@ export function BookShelf({ books, videos, isLoggedIn, username, visitStats }: B
       <div className="absolute bottom-0 left-0 w-32 h-32 rounded-full opacity-10 pointer-events-none"
         style={{ background: 'radial-gradient(circle, #6b48ff, transparent)', transform: 'translate(-30%, 30%)' }} />
 
-      {/* ── Topo fixo: título + stats + auth ── */}
+      {/* â”€â”€ Topo fixo: tÃ­tulo + stats + auth â”€â”€ */}
       <div
         style={{
           position: 'sticky',
@@ -95,7 +95,7 @@ export function BookShelf({ books, videos, isLoggedIn, username, visitStats }: B
       >
         <div style={{ maxWidth: '640px', margin: '0 auto', padding: '8px 14px' }}>
 
-          {/* Linha 1: título + auth */}
+          {/* Linha 1: tÃ­tulo + auth */}
           <div className="flex items-center justify-between">
             <motion.div
               initial={{ opacity: 0, x: -16 }}
@@ -161,7 +161,7 @@ export function BookShelf({ books, videos, isLoggedIn, username, visitStats }: B
                     padding: '3px 4px',
                   }}
                 >
-                  🗑
+                  ðŸ—‘
                 </button>
               </div>
             ) : (
@@ -184,7 +184,7 @@ export function BookShelf({ books, videos, isLoggedIn, username, visitStats }: B
             )}
           </div>
 
-          {/* Linha 2: stats + subtítulo */}
+          {/* Linha 2: stats + subtÃ­tulo */}
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
@@ -195,9 +195,9 @@ export function BookShelf({ books, videos, isLoggedIn, username, visitStats }: B
               Escolha um livro:
             </span>
             {[
-              { label: `👁 ${visitStats.total.toLocaleString('pt-BR')}`, bg: 'rgba(232,200,74,0.1)', border: 'rgba(232,200,74,0.3)', color: '#e8c84a', title: 'acessos' },
-              { label: `🔑 ${visitStats.uniqueLogged.toLocaleString('pt-BR')}`, bg: 'rgba(107,72,255,0.12)', border: 'rgba(107,72,255,0.35)', color: '#a78bfa', title: 'logados' },
-              { label: `👤 ${visitStats.uniqueAnon.toLocaleString('pt-BR')}`, bg: 'rgba(56,189,248,0.1)', border: 'rgba(56,189,248,0.3)', color: '#7dd3fc', title: 'anônimos' },
+              { label: `ðŸ‘ ${visitStats.total.toLocaleString('pt-BR')}`, bg: 'rgba(232,200,74,0.1)', border: 'rgba(232,200,74,0.3)', color: '#e8c84a', title: 'acessos' },
+              { label: `ðŸ”‘ ${visitStats.uniqueLogged.toLocaleString('pt-BR')}`, bg: 'rgba(107,72,255,0.12)', border: 'rgba(107,72,255,0.35)', color: '#a78bfa', title: 'logados' },
+              { label: `ðŸ‘¤ ${visitStats.uniqueAnon.toLocaleString('pt-BR')}`, bg: 'rgba(56,189,248,0.1)', border: 'rgba(56,189,248,0.3)', color: '#7dd3fc', title: 'anÃ´nimos' },
             ].map(chip => (
               <span
                 key={chip.label}
@@ -221,10 +221,10 @@ export function BookShelf({ books, videos, isLoggedIn, username, visitStats }: B
         </div>
       </div>
 
-      {/* ── Conteúdo principal ── */}
+      {/* â”€â”€ ConteÃºdo principal â”€â”€ */}
       <div className="w-full max-w-lg mx-auto px-3 py-5 flex-1 relative z-10">
 
-        {/* ── Painel de marketing — só para visitantes não logados ── */}
+        {/* â”€â”€ Painel de marketing â€” sÃ³ para visitantes nÃ£o logados â”€â”€ */}
         {!isLoggedIn && <motion.div
           initial={{ opacity: 0, y: -12 }}
           animate={{ opacity: 1, y: 0 }}
@@ -252,7 +252,7 @@ export function BookShelf({ books, videos, isLoggedIn, username, visitStats }: B
               textShadow: '2px 2px 0 rgba(0,0,0,0.5)',
               margin: '0 0 4px',
             }}>
-              CRIE SUA HISTÓRIA!
+              CRIE SUA HISTÃ“RIA!
             </p>
             <p style={{
               fontFamily: 'var(--font-nunito)',
@@ -261,10 +261,10 @@ export function BookShelf({ books, videos, isLoggedIn, username, visitStats }: B
               lineHeight: 1.45,
               margin: '0 0 6px',
             }}>
-              Agora você pode criar e publicar suas próprias aventuras com personagens animados e diálogos.
+              Agora vocÃª pode criar e publicar suas prÃ³prias aventuras com personagens animados e diÃ¡logos.
             </p>
             <div style={{ display: 'flex', gap: '8px', flexWrap: 'wrap' }}>
-              {['✏️ Edite', '🚀 Publique', '❤️ Curtidas'].map(item => (
+              {['âœï¸ Edite', 'ðŸš€ Publique', 'â¤ï¸ Curtidas'].map(item => (
                 <span key={item} style={{
                   fontFamily: 'var(--font-nunito)',
                   fontSize: 'clamp(10px, 2.5vw, 12px)',
@@ -291,11 +291,11 @@ export function BookShelf({ books, videos, isLoggedIn, username, visitStats }: B
               whiteSpace: 'nowrap',
             }}
           >
-            Começar →
+            ComeÃ§ar â†’
           </Link>
         </motion.div>}
 
-        {/* ── Book grid — 3 colunas ── */}
+        {/* â”€â”€ Book grid â€” 3 colunas â”€â”€ */}
         <div className="grid grid-cols-3 gap-2 mb-4">
           {books.map((book, i) => (
             <motion.div
@@ -319,11 +319,11 @@ export function BookShelf({ books, videos, isLoggedIn, username, visitStats }: B
                         <Image src={book.coverImage} alt={book.title} fill className="object-cover"
                           sizes="(max-width: 640px) 33vw, 180px" />
                       ) : (
-                        <div className="w-full h-full flex items-center justify-center text-3xl" style={{ background: '#0f1a3d' }}>📚</div>
+                        <div className="w-full h-full flex items-center justify-center text-3xl" style={{ background: '#0f1a3d' }}>ðŸ“š</div>
                       )}
                       <div className="absolute top-1.5 right-1.5 w-5 h-5 rounded-full flex items-center justify-center"
                         style={{ background: 'var(--comic-yellow)', border: '1.5px solid #1a1a2e', fontSize: '8px' }}>
-                        ▶
+                        â–¶
                       </div>
                     </div>
                   </motion.div>
@@ -337,7 +337,7 @@ export function BookShelf({ books, videos, isLoggedIn, username, visitStats }: B
                     {book.sceneCount} cenas
                   </p>
                 </div>
-                {/* Botão editar — só para usuários logados */}
+                {/* BotÃ£o editar â€” sÃ³ para usuÃ¡rios logados */}
                 {isLoggedIn && (
                   <Link
                     href={`/editor/${book.id}`}
@@ -350,7 +350,7 @@ export function BookShelf({ books, videos, isLoggedIn, username, visitStats }: B
                     }}
                     title="Editar"
                   >
-                    ✏️
+                    âœï¸
                   </Link>
                 )}
               </div>
@@ -362,7 +362,7 @@ export function BookShelf({ books, videos, isLoggedIn, username, visitStats }: B
         {hasVideos && (
           <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.4 }} className="mb-4">
             <p style={{ fontFamily: 'var(--font-bangers)', fontSize: '13px', color: 'rgba(255,255,255,0.4)', letterSpacing: '0.06em', marginBottom: '6px' }}>
-              ÚLTIMOS VÍDEOS
+              ÃšLTIMOS VÃDEOS
             </p>
             <div className="flex flex-col gap-2">
               {videos.map((video, i) =>
@@ -383,8 +383,8 @@ export function BookShelf({ books, videos, isLoggedIn, username, visitStats }: B
             Canais:
           </span>
           {[
-            { href: 'https://www.youtube.com/@inemagamer', label: '@inemagamer' },
-            { href: 'https://www.youtube.com/@inematdsx', label: '@inematdsx' },
+            { href: 'https://www.youtube.com/@ARCKHÉgamer', label: '@ARCKHÉgamer' },
+            { href: 'https://www.youtube.com/@linnoff88-devx', label: '@linnoff88-devx' },
           ].map(ch => (
             <motion.a
               key={ch.href}
@@ -413,7 +413,7 @@ export function BookShelf({ books, videos, isLoggedIn, username, visitStats }: B
         </motion.div>
 
         <p className="text-center mt-3" style={{ fontFamily: 'var(--font-nunito)', fontSize: '10px', color: 'rgba(255,255,255,0.15)' }}>
-          Deslize ← → para navegar entre as cenas
+          Deslize â† â†’ para navegar entre as cenas
         </p>
 
         <div className="flex justify-center mt-4 mb-2">
@@ -432,7 +432,7 @@ export function BookShelf({ books, videos, isLoggedIn, username, visitStats }: B
               display: 'inline-block',
             }}
           >
-            Como funciona? →
+            Como funciona? â†’
           </Link>
         </div>
       </div>

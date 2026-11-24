@@ -10,13 +10,13 @@ export interface LatestVideo {
 const CHANNELS = [
   {
     id: 'UChUeRy-BwHEDo-ZydZj3sHA',
-    handle: '@inemagamer',
-    name: 'IneMAGamer',
+    handle: '@ARCKHÉgamer',
+    name: 'ARCKHÉGamer',
   },
   {
     id: 'UC2QbQDyPKuHk93dwo5iq3Sw',
-    handle: '@inematdsx',
-    name: 'IneMAT DSX',
+    handle: '@linnoff88-devx',
+    name: 'ARCKHÉT DSX',
   },
 ];
 

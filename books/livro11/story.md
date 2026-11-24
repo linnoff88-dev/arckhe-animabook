@@ -1,4 +1,4 @@
-# Ep11: A Grecia Antiga — O Berco da Civilizacao
+# Ep11: A Grecia Antiga â€” O Berco da Civilizacao
 
 <!-- synopsis: Uma viagem holografica a Grecia Antiga: democracia, filosofia, olimpiadas, teatro, matematica, medicina, arquitetura e mitologia. -->
 
@@ -24,7 +24,7 @@
 
 [Lumi]: O que eles estao fazendo? Parece uma assembleia.
 
-[Professor]: E exatamente isso. Estamos em Atenas, por volta de 508 a.C. Aqui nasceu a democracia — a ideia de que o povo decide.
+[Professor]: E exatamente isso. Estamos em Atenas, por volta de 508 a.C. Aqui nasceu a democracia â€” a ideia de que o povo decide.
 
 [Valen]: Qualquer pessoa podia votar?
 
@@ -34,7 +34,7 @@
 
 [Caio]: Entao a ideia de votar veio dai?
 
-[Professor]: A essencia, sim. Parlamentos, eleicoes, direitos civis — tudo comecou com essa experiencia grega de dar voz ao cidadao.
+[Professor]: A essencia, sim. Parlamentos, eleicoes, direitos civis â€” tudo comecou com essa experiencia grega de dar voz ao cidadao.
 
 [Lumi]: Uma ideia de 2.500 anos que ainda esta viva.
 
@@ -42,7 +42,7 @@
 
 > O holograma mostrava dois homens de tunica debatendo com gestos intensos. Um mais velho, de barba, questionava tudo. O outro, mais jovem, anotava com atencao. Caio observava fascinado.
 
-[Professor]: Conhecam Socrates e Platao. Dois dos maiores pensadores da historia. Socrates nao escreveu nada — ele so fazia perguntas.
+[Professor]: Conhecam Socrates e Platao. Dois dos maiores pensadores da historia. Socrates nao escreveu nada â€” ele so fazia perguntas.
 
 [Caio]: Perguntas? E isso era filosofia?
 
@@ -50,7 +50,7 @@
 
 [Valen]: E Platao?
 
-[Professor]: Platao era aluno de Socrates. Ele escreveu tudo — e criou a Academia, a primeira universidade do mundo. Depois veio Aristoteles, aluno de Platao, que estudou de logica a biologia.
+[Professor]: Platao era aluno de Socrates. Ele escreveu tudo â€” e criou a Academia, a primeira universidade do mundo. Depois veio Aristoteles, aluno de Platao, que estudou de logica a biologia.
 
 [PIX-Z]: Cadeia filosofica registrada: Socrates ensinou Platao, que ensinou Aristoteles, que ensinou Alexandre, o Grande. Quatro geracoes que moldaram o pensamento ocidental.
 
@@ -68,7 +68,7 @@
 
 [Valen]: Eles competiam assim, ao ar livre?
 
-[Professor]: Sim, e durante os jogos havia uma tregua sagrada — todas as guerras paravam. O esporte unia a Grecia inteira.
+[Professor]: Sim, e durante os jogos havia uma tregua sagrada â€” todas as guerras paravam. O esporte unia a Grecia inteira.
 
 [PIX-Z]: Dados olimpicos: realizados a cada quatro anos em Olimpia. Modalidades incluiam corrida de estadio, pentatlo, pugilato e corrida de bigas. Os vencedores recebiam coroas de oliveira.
 
@@ -92,21 +92,21 @@
 
 [PIX-Z]: Generos teatrais gregos: tragedia (conflitos humanos profundos, autores como Sofocles e Euripides) e comedia (satira social, Aristofanes). Apresentados em festivais dedicados a Dioniso.
 
-[Valen]: Entao cinema, novela, serie — tudo veio disso?
+[Valen]: Entao cARCKHÉ, novela, serie â€” tudo veio disso?
 
 [Professor]: A estrutura narrativa, sim. Conflito, climax, resolucao. Os gregos criaram a formula que toda historia ainda segue.
 
 [Maya]: Aristoteles escreveu sobre isso tambem, nao foi?
 
-[Professor]: Escreveu a "Poetica" — o primeiro manual de roteiro da historia. Diretores de Hollywood ainda estudam esse texto.
+[Professor]: Escreveu a "Poetica" â€” o primeiro manual de roteiro da historia. Diretores de Hollywood ainda estudam esse texto.
 
 <!-- scene: Cena_06_Matematica_e_Ciencia_Tales_P.png -->
 
-> Equacoes e formas geometricas flutuavam pelo ar. Triangulos, circulos, o numero Pi, o teorema de Pitagoras — tudo brilhando em azul holografico. Lumi manipulava um triangulo retangulo com as maos.
+> Equacoes e formas geometricas flutuavam pelo ar. Triangulos, circulos, o numero Pi, o teorema de Pitagoras â€” tudo brilhando em azul holografico. Lumi manipulava um triangulo retangulo com as maos.
 
 [Lumi]: a ao quadrado mais b ao quadrado igual a c ao quadrado! Eu conhego isso!
 
-[Professor]: Teorema de Pitagoras. Mas a matematica grega vai muito alem disso. Tales de Mileto, Euclides, Arquimedes — eles transformaram observacao em ciencia.
+[Professor]: Teorema de Pitagoras. Mas a matematica grega vai muito alem disso. Tales de Mileto, Euclides, Arquimedes â€” eles transformaram observacao em ciencia.
 
 [Caio]: Como assim?
 
@@ -122,7 +122,7 @@
 
 <!-- scene: Cena_07_Medicina_Hipocrates_o_Pai_da.png -->
 
-> Um holograma imponente de Hipocrates apareceu ao lado de Caio. O medico grego segurava um cajado, cercado por paineis mostrando anatomia humana — coracao, cerebro, ossos, orgaos.
+> Um holograma imponente de Hipocrates apareceu ao lado de Caio. O medico grego segurava um cajado, cercado por paineis mostrando anatomia humana â€” coracao, cerebro, ossos, orgaos.
 
 [Professor]: Hipocrates de Cos. O Pai da Medicina. Antes dele, doenca era castigo dos deuses. Ele disse: nao. Doenca tem causa natural, e pode ser tratada.
 
@@ -134,7 +134,7 @@
 
 [Valen]: Ele ja falava de dieta e exercicio?
 
-[Professor]: Sim. "Que o alimento seja teu remedio" e atribuida a ele. A medicina preventiva — cuidar antes de adoecer — e uma ideia grega.
+[Professor]: Sim. "Que o alimento seja teu remedio" e atribuida a ele. A medicina preventiva â€” cuidar antes de adoecer â€” e uma ideia grega.
 
 [Lumi]: Dois mil e quatrocentos anos e a gente ainda ta tentando seguir esse conselho.
 
@@ -144,19 +144,19 @@
 
 [Lumi]: Olha o tamanho disso! E so de pedra?
 
-[Professor]: Marmore pentelico, extraido a 16 quilometros de Atenas. O Partenon foi construido em 447 a.C. — dedicado a deusa Atena. E uma obra-prima de engenharia.
+[Professor]: Marmore pentelico, extraido a 16 quilometros de Atenas. O Partenon foi construido em 447 a.C. â€” dedicado a deusa Atena. E uma obra-prima de engenharia.
 
 [Caio]: As colunas sao todas iguais?
 
 [Professor]: Nao. Os gregos criaram tres ordens arquitetonicas. Dorica: simples e robusta. Jonica: elegante, com volutas. Corintia: ornamentada, com folhas de acanto.
 
-[PIX-Z]: Curiosidade estrutural: as colunas do Partenon nao sao retas — tem uma leve curvatura proposital chamada "entase", que corrige a ilusao optica e faz parecerem perfeitamente retas ao olho humano.
+[PIX-Z]: Curiosidade estrutural: as colunas do Partenon nao sao retas â€” tem uma leve curvatura proposital chamada "entase", que corrige a ilusao optica e faz parecerem perfeitamente retas ao olho humano.
 
 [Valen]: Eles enganavam o olho de proposito?
 
 [Professor]: Com matematica. Cada detalhe do Partenon envolve proporcao aurea e correcoes opticas. Os gregos construiam para a perfeicao visual.
 
-[Maya]: Bancos, museus, tribunais — tudo tem essas colunas ate hoje.
+[Maya]: Bancos, museus, tribunais â€” tudo tem essas colunas ate hoje.
 
 [Professor]: Porque a arquitetura grega virou simbolo de ordem, justica e conhecimento. O mundo inteiro copiou.
 
@@ -166,13 +166,13 @@
 
 [Maya]: Zeus!
 
-[Valen]: E aquele cavalo gigante — e o Cavalo de Troia!
+[Valen]: E aquele cavalo gigante â€” e o Cavalo de Troia!
 
-[Professor]: Mitologia grega. Os deuses do Olimpo nao eram distantes — tinham ciumes, raiva, amor. Eram humanos amplificados.
+[Professor]: Mitologia grega. Os deuses do Olimpo nao eram distantes â€” tinham ciumes, raiva, amor. Eram humanos amplificados.
 
 [Lumi]: E a Odisseia? Ulisses tentando voltar pra casa?
 
-[Professor]: Homero escreveu a Iliada e a Odisseia — as primeiras grandes obras literarias do Ocidente. Aventura, guerra, lealdade, destino. Tudo que uma boa historia precisa.
+[Professor]: Homero escreveu a Iliada e a Odisseia â€” as primeiras grandes obras literarias do Ocidente. Aventura, guerra, lealdade, destino. Tudo que uma boa historia precisa.
 
 [PIX-Z]: Panteon olimpico: 12 deuses principais. Zeus (ceu e trovao), Atena (sabedoria), Poseidon (mares), Afrodite (amor), Ares (guerra), Apolo (sol e artes), entre outros.
 
