@@ -98,7 +98,7 @@ export default function NewBookPage() {
             style={{ ...inputStyle, minHeight: '80px', resize: 'vertical' as const }}
             value={synopsis}
             onChange={e => setSynopsis(e.target.value)}
-            placeholder="Uma breve descrição do livro..."
+            placeholder="Uma breve descriçêo do livro..."
           />
         </div>
 

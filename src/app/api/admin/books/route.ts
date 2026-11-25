@@ -55,7 +55,7 @@ export async function POST(request: NextRequest) {
   const { slug, title, synopsis } = body;
 
   if (!slug || !title) {
-    return NextResponse.json({ error: 'slug e title são obrigatórios' }, { status: 400 });
+    return NextResponse.json({ error: 'slug e title sêo obrigatórios' }, { status: 400 });
   }
 
   if (!/^[a-z0-9-]+$/.test(slug)) {

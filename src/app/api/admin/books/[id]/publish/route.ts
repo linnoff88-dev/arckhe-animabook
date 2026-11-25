@@ -26,7 +26,7 @@ export async function POST(
     .eq('book_id', id);
 
   if (!assets || assets.length === 0) {
-    return NextResponse.json({ error: 'Livro não tem imagens. Envie imagens antes de publicar.' }, { status: 400 });
+    return NextResponse.json({ error: 'Livro nêo tem imagens. Envie imagens antes de publicar.' }, { status: 400 });
   }
 
   const { data: book } = await supabase

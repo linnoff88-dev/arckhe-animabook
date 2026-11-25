@@ -50,7 +50,7 @@ export function AuthForm({ next = '/' }: AuthFormProps) {
       return;
     }
 
-    // Tenta login automático após criação
+    // Tenta login automático após criaçêo
     const { error: signInError } = await supabase.auth.signInWithPassword({ email, password });
     setLoading(false);
     if (signInError) {

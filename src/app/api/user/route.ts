@@ -9,10 +9,10 @@ const admin = createClient(
 export async function DELETE(req: NextRequest) {
   const auth = req.headers.get('Authorization');
   const token = auth?.replace('Bearer ', '').trim();
-  if (!token) return NextResponse.json({ error: 'Não autenticado' }, { status: 401 });
+  if (!token) return NextResponse.json({ error: 'Nêo autenticado' }, { status: 401 });
 
   const { data: { user } } = await admin.auth.getUser(token);
-  if (!user) return NextResponse.json({ error: 'Usuário não encontrado' }, { status: 404 });
+  if (!user) return NextResponse.json({ error: 'Usuário nêo encontrado' }, { status: 404 });
 
   // Deleta dados relacionados antes de deletar o usuário
   await admin.from('drafts').delete().eq('user_id', user.id);

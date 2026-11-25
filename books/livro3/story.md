@@ -2,7 +2,7 @@
 
 <!-- scene: Cena_01_A_Gaiola_Vazia.png -->
 
-> Segunda de manhã. Laboratório de biologia. A aula ainda nem tinha começado quando alguém percebeu.
+> Segunda de manhê. Laboratório de biologia. A aula ainda nem tinha começado quando alguém percebeu.
 
 [Lumi]: A gaiola está vazia. Natui fugiu.
 
@@ -10,7 +10,7 @@
 
 [Maya]: Natui fugiu! Todo mundo procura! Ele é pequeno, rápido e pode estar em qualquer canto da escola!
 
-[Valen]: Calma. Gritando não vai ajudar.
+[Valen]: Calma. Gritando nêo vai ajudar.
 
 [Maya]: NATUI!
 
@@ -18,39 +18,39 @@
 
 <!-- scene: Cena_03_Caio_Analisa_as_Pistas.png -->
 
-[Caio]: A grade da gaiola foi dobrada por dentro, não por fora. Ele trabalhou para isso. Provavelmente passou a noite inteira planejando a saída.
+[Caio]: A grade da gaiola foi dobrada por dentro, nêo por fora. Ele trabalhou para isso. Provavelmente passou a noite inteira planejando a saída.
 
 [Lumi]: Natui planejou a própria fuga?
 
-[Caio]: Ratinhos são muito mais inteligentes do que a maioria das pessoas imagina. E Natui sempre foi o mais curioso do laboratório.
+[Caio]: Ratinhos sêo muito mais inteligentes do que a maioria das pessoas imagina. E Natui sempre foi o mais curioso do laboratório.
 
 <!-- scene: Cena_04_Plano_de_Busca.png -->
 
-[Valen]: PIX-Z, quais são as rotas mais prováveis para um roedor de 80 gramas a partir do laboratório de biologia?
+[Valen]: PIX-Z, quais sêo as rotas mais prováveis para um roedor de 80 gramas a partir do laboratório de biologia?
 
-[PIX-Z]: Processando. Três rotas com maior probabilidade: duto de ventilação sul, corredor B, e a biblioteca do terceiro andar.
+[PIX-Z]: Processando. Três rotas com maior probabilidade: duto de ventilaçêo sul, corredor B, e a biblioteca do terceiro andar.
 
-[Valen]: Dividimos. Caio, ventilação. Eu, corredor B. Maya e Lumi, biblioteca. Trinta minutos. Alguém achou, manda mensagem antes de qualquer coisa.
+[Valen]: Dividimos. Caio, ventilaçêo. Eu, corredor B. Maya e Lumi, biblioteca. Trinta minutos. Alguém achou, manda mensagem antes de qualquer coisa.
 
 <!-- scene: Cena_05_Maya_Procura_na_Biblioteca.png -->
 
-[Maya]: Natui! Natui, estou aqui com seu petisco favorito! Sai logo, seu fujão de laboratório!
+[Maya]: Natui! Natui, estou aqui com seu petisco favorito! Sai logo, seu fujêo de laboratório!
 
 [Lumi]: Shhh! Isso é biblioteca, Maya.
 
-[Maya]: Natui, por favor... a gente está com saudade. Não vai a lugar nenhum sem você.
+[Maya]: Natui, por favor... a gente está com saudade. Nêo vai a lugar nenhum sem você.
 
 <!-- scene: Cena_06_Natui_no_Corredor.png -->
 
 > No corredor B, um pequeno vulto castanho farejava a parede com toda a calma do mundo, como se nunca tivesse sido preso em lugar nenhum.
 
-[Valen]: Achei ele. Corredor B, perto do almoxarifado. Mas ele não está tentando sair — está indo para dentro.
+[Valen]: Achei ele. Corredor B, perto do almoxarifado. Mas ele nêo está tentando sair — está indo para dentro.
 
 [Caio]: Para dentro de quê?
 
 <!-- scene: Cena_07_Pix-Z_Rastreia.png -->
 
-[PIX-Z]: Monitoramento térmico indica concentração de calor no almoxarifado, setor três. Padrão consistente com presença de múltiplos corpos pequenos em área restrita.
+[PIX-Z]: Monitoramento térmico indica concentraçêo de calor no almoxarifado, setor três. Padrêo consistente com presença de múltiplos corpos pequenos em área restrita.
 
 [Caio]: Múltiplos. Você disse múltiplos.
 
@@ -58,7 +58,7 @@
 
 <!-- scene: Cena_08_Quase_La.png -->
 
-[Valen]: A porta está entreaberta. Ele entrou aqui. Com muito cuidado agora — não assustemos ninguém.
+[Valen]: A porta está entreaberta. Ele entrou aqui. Com muito cuidado agora — nêo assustemos ninguém.
 
 [Maya]: Por que você está sussurrando?
 
@@ -68,15 +68,15 @@
 
 <!-- scene: Cena_09_A_Descoberta.png -->
 
-> Dentro do almoxarifado, no canto mais quente e escuro, entre caixas empilhadas, Natui estava deitado em um ninho feito de algodão roubado dos kits de primeiros socorros. E ao redor dele, sete filhotinhos minúsculos, rosados e perfeitos.
+> Dentro do almoxarifado, no canto mais quente e escuro, entre caixas empilhadas, Natui estava deitado em um ninho feito de algodêo roubado dos kits de primeiros socorros. E ao redor dele, sete filhotinhos minúsculos, rosados e perfeitos.
 
-[Caio]: São... filhotinhos.
+[Caio]: Sêo... filhotinhos.
 
-[Maya]: NATUI É MÃE?!
+[Maya]: NATUI É MêE?!
 
 <!-- scene: Cena_10_A_Surpresa_Faisca_Virou_Pai.png -->
 
-> E então, ao lado de Natui, igualmente tranquilo e igualmente orgulhoso, estava Faísca — o rato do laboratório de química que todos na escola juravam que era fêmea.
+> E entêo, ao lado de Natui, igualmente tranquilo e igualmente orgulhoso, estava Faísca — o rato do laboratório de química que todos na escola juravam que era fêmea.
 
 [Lumi]: Faísca virou pai.
 

@@ -39,7 +39,7 @@ export async function getBooks(): Promise<BookInfo[]> {
   try {
     dbBooks = await getPublishedBooksFromDb();
   } catch {
-    // Se banco não tiver as tabelas ainda, ignora
+    // Se banco nêo tiver as tabelas ainda, ignora
   }
 
   // Mesclar: DB tem prioridade sobre filesystem para mesmo slug

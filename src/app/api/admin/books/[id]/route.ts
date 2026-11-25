@@ -27,7 +27,7 @@ export async function GET(
   ]);
 
   if (bookResult.error) {
-    return NextResponse.json({ error: 'Livro não encontrado' }, { status: 404 });
+    return NextResponse.json({ error: 'Livro nêo encontrado' }, { status: 404 });
   }
 
   // Creator só pode ver seus próprios livros
@@ -64,7 +64,7 @@ export async function PATCH(
 
   const body = await request.json();
 
-  // Creator não pode mudar status
+  // Creator nêo pode mudar status
   const allowedFields = auth.role === 'creator'
     ? ['title', 'synopsis', 'story_content', 'cover_asset_id']
     : ['title', 'synopsis', 'story_content', 'cover_asset_id', 'status'];

@@ -4,11 +4,11 @@
 
 > A sala estava diferente. O professor havia chegado mais cedo que o normal. Quando a turma entrou, as luzes já estavam apagadas e o projetor holográfico aquecia.
 
-[Professor]: Sente aqui a cadeira. Pegue o chão embaixo dos seus pés. Isso que vocês estão tocando — isso é a Terra. Não apenas o planeta. A camada mais externa de uma máquina que funciona há quatro bilhões e meio de anos.
+[Professor]: Sente aqui a cadeira. Pegue o chêo embaixo dos seus pés. Isso que vocês estêo tocando — isso é a Terra. Nêo apenas o planeta. A camada mais externa de uma máquina que funciona há quatro bilhões e meio de anos.
 
 [Lumi]: Uma máquina?
 
-[Professor]: Uma máquina viva. Com calor, pressão, movimento. E hoje vamos entender como ela funciona por dentro.
+[Professor]: Uma máquina viva. Com calor, pressêo, movimento. E hoje vamos entender como ela funciona por dentro.
 
 [PIX-Z]: Temperatura atual da superfície onde estamos: 24 graus Celsius. Temperatura do núcleo interno da Terra: aproximadamente 5.200 graus Celsius.
 
@@ -18,15 +18,15 @@
 
 <!-- scene: Vista_espacial_da_Terra.png -->
 
-> A projeção mostrou a Terra vista do espaço. Azul, branca, com pequenas manchas verdes e marrons. No escuro total do universo, ela parecia um farol aceso no meio do nada.
+> A projeçêo mostrou a Terra vista do espaço. Azul, branca, com pequenas manchas verdes e marrons. No escuro total do universo, ela parecia um farol aceso no meio do nada.
 
-[Maya]: Ela parece tão pequena daqui.
+[Maya]: Ela parece têo pequena daqui.
 
 [Professor]: Do espaço, o planeta tem 12.742 quilômetros de diâmetro. Parece grande quando estamos nele. Do espaço, é um ponto brilhante. Do universo inteiro, é invisível.
 
 [Valen]: E mesmo assim é o único com vida confirmada.
 
-[Professor]: Por enquanto. O que torna a Terra especial não é o tamanho — é a posição. A distância certa do Sol para ter água líquida. A atmosfera certa para reter calor. O campo magnético certo para bloquear radiação.
+[Professor]: Por enquanto. O que torna a Terra especial nêo é o tamanho — é a posiçêo. A distância certa do Sol para ter água líquida. A atmosfera certa para reter calor. O campo magnético certo para bloquear radiaçêo.
 
 [Lumi]: Tudo teve que dar certo ao mesmo tempo?
 
@@ -34,15 +34,15 @@
 
 <!-- scene: Corte_transversal_da_Terra.png -->
 
-> O professor mudou a projeção para um corte transversal da Terra. As camadas apareceram em cores: ocre na crosta, laranja no manto, vermelho intenso no núcleo externo, branco ofuscante no núcleo interno.
+> O professor mudou a projeçêo para um corte transversal da Terra. As camadas apareceram em cores: ocre na crosta, laranja no manto, vermelho intenso no núcleo externo, branco ofuscante no núcleo interno.
 
-[Professor]: Quatro camadas. A crosta, onde vivemos — entre 5 e 70 quilômetros de espessura dependendo da região. O manto, 2.900 quilômetros de rocha em estado semissólido. O núcleo externo, ferro e níquel líquidos. E o núcleo interno, ferro sólido sob pressão tão extrema que não derrete mesmo a 5.000 graus.
+[Professor]: Quatro camadas. A crosta, onde vivemos — entre 5 e 70 quilômetros de espessura dependendo da regiêo. O manto, 2.900 quilômetros de rocha em estado semissólido. O núcleo externo, ferro e níquel líquidos. E o núcleo interno, ferro sólido sob pressêo têo extrema que nêo derrete mesmo a 5.000 graus.
 
 [Caio]: A crosta parece fina demais comparada com o resto.
 
 [Professor]: É a pele de uma laranja. Proporcional ao tamanho do planeta, é isso que a crosta representa.
 
-[PIX-Z]: Dado adicional: o núcleo interno gira levemente mais rápido que o resto do planeta. Esse diferencial de rotação gera o campo magnético terrestre — a barreira invisível que bloqueia o vento solar.
+[PIX-Z]: Dado adicional: o núcleo interno gira levemente mais rápido que o resto do planeta. Esse diferencial de rotaçêo gera o campo magnético terrestre — a barreira invisível que bloqueia o vento solar.
 
 [Maya]: Se o núcleo parar de girar...
 
@@ -54,11 +54,11 @@
 
 <!-- scene: Fundo_do_Oceano_Abissal___Fossa_das_Mari.png -->
 
-> A cena mudou para o fundo do oceano. Escuridão quase total. Pressão visível na distorção da luz. Formas estranhas de vida brilhavam no escuro — criaturas que nunca viram o Sol.
+> A cena mudou para o fundo do oceano. Escuridêo quase total. Pressêo visível na distorçêo da luz. Formas estranhas de vida brilhavam no escuro — criaturas que nunca viram o Sol.
 
 [Lumi]: O que é esse lugar?
 
-[Professor]: A Fossa das Marianas. O ponto mais fundo dos oceanos — 11 quilômetros abaixo da superfície. A pressão lá é mil vezes maior que na superfície. A temperatura, perto de zero. A escuridão, absoluta.
+[Professor]: A Fossa das Marianas. O ponto mais fundo dos oceanos — 11 quilômetros abaixo da superfície. A pressêo lá é mil vezes maior que na superfície. A temperatura, perto de zero. A escuridêo, absoluta.
 
 [Maya]: Tem vida aqui?
 
@@ -68,7 +68,7 @@
 
 [Professor]: Completamente. Se há vida nas fossas mais profundas e escuras da Terra, há possibilidade de vida em luas oceânicas de outros planetas — como Europa, de Júpiter, que tem um oceano líquido sob quilômetros de gelo.
 
-[PIX-Z]: Os oceanos cobrem 71% da superfície terrestre. Apenas 20% do fundo oceânico foi mapeado com precisão. A Lua foi mais explorada do que o fundo dos nossos oceanos.
+[PIX-Z]: Os oceanos cobrem 71% da superfície terrestre. Apenas 20% do fundo oceânico foi mapeado com precisêo. A Lua foi mais explorada do que o fundo dos nossos oceanos.
 
 [Valen]: A gente conhece mais a Lua do que o próprio planeta.
 
@@ -76,9 +76,9 @@
 
 <!-- scene: Cordilheira_Himalaia___Monte_Everest.png -->
 
-> O Himalaia surgiu na projeção. Montanhas que pareciam tocar as nuvens. O Everest no centro, com neve perpétua no topo, a 8.849 metros de altitude.
+> O Himalaia surgiu na projeçêo. Montanhas que pareciam tocar as nuvens. O Everest no centro, com neve perpétua no topo, a 8.849 metros de altitude.
 
-[Professor]: As montanhas não são permanentes. O Himalaia continua crescendo — alguns centímetros por ano. A Índia colide com a Ásia há 50 milhões de anos e continua empurrando.
+[Professor]: As montanhas nêo sêo permanentes. O Himalaia continua crescendo — alguns centímetros por ano. A Índia colide com a Ásia há 50 milhões de anos e continua empurrando.
 
 [Caio]: As placas tectônicas ainda se movem?
 
@@ -86,15 +86,15 @@
 
 [Maya]: O planeta é vivo mesmo.
 
-[PIX-Z]: Há 300 milhões de anos, todos os continentes eram um único bloco chamado Pangeia. O que chamamos de "continentes separados" é apenas uma fotografia de um momento no tempo. Em 250 milhões de anos, alguns modelos indicam que formarão um novo supercontinente.
+[PIX-Z]: Há 300 milhões de anos, todos os continentes eram um único bloco chamado Pangeia. O que chamamos de "continentes separados" é apenas uma fotografia de um momento no tempo. Em 250 milhões de anos, alguns modelos indicam que formarêo um novo supercontinente.
 
 [Lumi]: Tudo se separa e se junta de novo?
 
-[Professor]: Em escala de tempo geológico, sim. A Terra não é estática. Ela respira, se move, se reconstrói.
+[Professor]: Em escala de tempo geológico, sim. A Terra nêo é estática. Ela respira, se move, se reconstrói.
 
 <!-- scene: Cordilheira___Pico_montanhoso.png -->
 
-> O pico de uma cordilheira desconhecida apareceu. Gelo e rocha. O horizonte curvo da Terra ao fundo. Uma imensidão que tornava qualquer coisa humana minúscula.
+> O pico de uma cordilheira desconhecida apareceu. Gelo e rocha. O horizonte curvo da Terra ao fundo. Uma imensidêo que tornava qualquer coisa humana minúscula.
 
 [Professor]: E isso é só a superfície. O que vemos — montanhas, oceanos, planícies, florestas — é a camada mais fina do planeta. O que está embaixo é o que realmente o move.
 
@@ -102,13 +102,13 @@
 
 [Professor]: É o que acontece quando você só vê de dentro. Você perde a escala. Sair da perspectiva — seja subindo uma montanha, seja olhando do espaço — muda o que você consegue entender.
 
-[Lumi]: E o que não sabemos ainda?
+[Lumi]: E o que nêo sabemos ainda?
 
-[Professor]: A maior parte. O manto ainda guarda segredos sobre como as placas se comportam. O núcleo interno tem estruturas que ainda não explicamos completamente. O fundo do oceano é um território quase inexplorado.
+[Professor]: A maior parte. O manto ainda guarda segredos sobre como as placas se comportam. O núcleo interno tem estruturas que ainda nêo explicamos completamente. O fundo do oceano é um território quase inexplorado.
 
-[Caio]: Então ainda tem muito para descobrir.
+[Caio]: Entêo ainda tem muito para descobrir.
 
-[Professor]: Sempre vai ter. É o que torna a ciência viva. Na próxima aula, vamos mergulhar nos detalhes — as temperaturas extremas, os números impossíveis, a história dos continentes. O planeta que vocês pisam todo dia é mais estranho e mais incrível do que qualquer ficção científica.
+[Professor]: Sempre vai ter. É o que torna a ciência viva. Na próxima aula, vamos mergulhar nos detalhes — as temperaturas extremas, os números impossíveis, a história dos continentes. O planeta que vocês pisam todo dia é mais estranho e mais incrível do que qualquer ficçêo científica.
 
 [Maya]: Mal posso esperar.
 

@@ -51,7 +51,7 @@ export default function AdminDashboard() {
   }
 
   async function handleDelete(bookId: string, title: string) {
-    if (!confirm(`Excluir "${title}"? Esta ação não pode ser desfeita.`)) return;
+    if (!confirm(`Excluir "${title}"? Esta açêo nêo pode ser desfeita.`)) return;
     const headers = await getAuthHeaders();
     const res = await fetch(`/api/admin/books/${bookId}`, { method: 'DELETE', headers });
     if (res.ok) {

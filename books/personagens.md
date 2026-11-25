@@ -21,4 +21,4 @@
 | Ticha | Lagartixa | |
 | Rosinha | Porquinha | |
 | Roc | Sapo | |
-| Ale | Pastor alemão | |
+| Ale | Pastor alemêo | |

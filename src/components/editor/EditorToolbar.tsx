@@ -20,7 +20,7 @@ interface EditorToolbarProps {
 const statusConfig: Record<SaveStatus, { label: string; color: string }> = {
   saved: { label: '✅ Salvo', color: '#4ade80' },
   saving: { label: '⏳ Salvando...', color: '#fbbf24' },
-  unsaved: { label: '● Não salvo', color: '#f87171' },
+  unsaved: { label: '● Nêo salvo', color: '#f87171' },
   error: { label: '❌ Erro ao salvar', color: '#f87171' },
 };
 

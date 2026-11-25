@@ -22,7 +22,7 @@ const admin = createClient(
 export default async function PublicationPage({ params }: Props) {
   const { id } = await params;
 
-  // Busca publicação (sem join)
+  // Busca publicaçêo (sem join)
   const { data: pub, error: pubError } = await admin
     .from('publications')
     .select('id, user_id, book_id, content, published_at')
@@ -40,7 +40,7 @@ export default async function PublicationPage({ params }: Props) {
 
   const authorName = profile?.username ?? 'Usuário';
 
-  // Sessão do usuário
+  // Sessêo do usuário
   const supabase = await createSupabaseServerClient();
   const { data: { user } } = await supabase.auth.getUser();
 

@@ -94,7 +94,7 @@ export default function BookEditorPage({ params }: { params: Promise<{ id: strin
     let failed = 0;
     const errors: string[] = [];
 
-    // Enviar uma por uma para não estourar timeout
+    // Enviar uma por uma para nêo estourar timeout
     for (const file of fileList) {
       setUploadMessage(`Enviando ${sent + 1}/${fileList.length} — ${file.name}...`);
 
@@ -121,7 +121,7 @@ export default function BookEditorPage({ params }: { params: Promise<{ id: strin
         }
       } catch {
         failed++;
-        errors.push(`${file.name}: falha na conexão`);
+        errors.push(`${file.name}: falha na conexêo`);
       }
     }
 
@@ -198,7 +198,7 @@ export default function BookEditorPage({ params }: { params: Promise<{ id: strin
   }
 
   if (!book) {
-    return <p style={{ fontFamily: 'var(--font-nunito)', color: '#f87171' }}>Livro não encontrado.</p>;
+    return <p style={{ fontFamily: 'var(--font-nunito)', color: '#f87171' }}>Livro nêo encontrado.</p>;
   }
 
   const inputStyle = {
@@ -438,7 +438,7 @@ export default function BookEditorPage({ params }: { params: Promise<{ id: strin
         </p>
       </div>
 
-      {/* Botão salvar */}
+      {/* Botêo salvar */}
       <button
         onClick={handleSave}
         disabled={saving}

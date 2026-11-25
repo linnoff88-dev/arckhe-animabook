@@ -17,7 +17,7 @@ export async function POST(req: NextRequest, { params }: RouteParams) {
   const auth = req.headers.get('Authorization');
   const token = auth?.replace('Bearer ', '').trim();
   if (!token) {
-    return NextResponse.json({ error: 'Não autenticado' }, { status: 401 });
+    return NextResponse.json({ error: 'Nêo autenticado' }, { status: 401 });
   }
 
   const { data: { user } } = await admin.auth.getUser(token);
@@ -31,7 +31,7 @@ export async function POST(req: NextRequest, { params }: RouteParams) {
     return NextResponse.json({ error: 'Conteúdo inválido' }, { status: 400 });
   }
 
-  // Remove publicação anterior do mesmo usuário neste livro (1 por pessoa)
+  // Remove publicaçêo anterior do mesmo usuário neste livro (1 por pessoa)
   const { data: existing } = await admin
     .from('publications')
     .select('id')

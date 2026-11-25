@@ -20,13 +20,13 @@
 
 [Caio]: Ele parece mais controlado que você.
 
-[Valen]: Ele É mais controlado que eu. Eu treino com ele, não o contrário.
+[Valen]: Ele É mais controlado que eu. Eu treino com ele, nêo o contrário.
 
 <!-- scene: ale.png -->
 
-> Ale. Pastor alemão. Treinado para reconhecer padrões emocionais. Quando alguém da turma está mal, ele sente antes de qualquer pessoa notar.
+> Ale. Pastor alemêo. Treinado para reconhecer padrões emocionais. Quando alguém da turma está mal, ele sente antes de qualquer pessoa notar.
 
-[Valen]: O que a maioria não sabe sobre o Ale é que ele não precisa de comando verbal. Ele lê o ambiente.
+[Valen]: O que a maioria nêo sabe sobre o Ale é que ele nêo precisa de comando verbal. Ele lê o ambiente.
 
 [Lumi]: Ele já foi até mim uma vez durante a prova de física. Ficou do meu lado até eu terminar.
 
@@ -40,17 +40,17 @@
 
 [Neve]: ...
 
-[Lumi]: Tá bom. Só um pouco mais rápido então.
+[Lumi]: Tá bom. Só um pouco mais rápido entêo.
 
 <!-- scene: neve.png -->
 
-> Neve. Cão Maremano. Branca como a neve que deu nome a ela. Enérgica, protetora, e completamente apaixonada por Lumi.
+> Neve. Cêo Maremano. Branca como a neve que deu nome a ela. Enérgica, protetora, e completamente apaixonada por Lumi.
 
 [Lumi]: Neve nasceu para proteger. É da raça dela. Mas aqui ela aprendeu que proteger também pode ser ficar quietinha do lado enquanto você estuda.
 
 [Maya]: Ela fica quieta enquanto você estuda?
 
-[Lumi]: Fica. Com a cabeça no meu colo. Não é exatamente silencioso, mas funciona.
+[Lumi]: Fica. Com a cabeça no meu colo. Nêo é exatamente silencioso, mas funciona.
 
 <!-- scene: maya.png -->
 
@@ -64,7 +64,7 @@
 
 <!-- scene: fifi.png -->
 
-> Fifi. Gatinha listrada. Sentido de direção extraordinário. Já encontrou Maya em qualquer lugar da escola — mesmo em salas onde nunca esteve.
+> Fifi. Gatinha listrada. Sentido de direçêo extraordinário. Já encontrou Maya em qualquer lugar da escola — mesmo em salas onde nunca esteve.
 
 [Maya]: Fifi tem um GPS interno que nenhuma tecnologia conseguiu replicar ainda. Ela encontra qualquer pessoa da escola pelo cheiro, mesmo em lugares novos.
 
@@ -72,13 +72,13 @@
 
 [Maya]: Três vezes.
 
-[Caio]: Quatro. Uma eu não contei.
+[Caio]: Quatro. Uma eu nêo contei.
 
 <!-- scene: caio.png -->
 
 > Caio chegou por último, com Roc dentro de um terrário de vidro temperado que ele mesmo construiu — ventilado, climatizado, perfeito.
 
-[Caio]: Roc não gosta de multidão. Mas a coleira dele tem sensor de estresse adaptado para anfíbios. Se ele ficar agitado, ela avisa antes.
+[Caio]: Roc nêo gosta de multidêo. Mas a coleira dele tem sensor de estresse adaptado para anfíbios. Se ele ficar agitado, ela avisa antes.
 
 [Lumi]: Você construiu o terrário?
 
@@ -88,7 +88,7 @@
 
 > Roc. Sapo-de-chifres. Memória visual extraordinária. Reconhece rostos e só deixa quem ele conhece se aproximar.
 
-[Caio]: O que a maioria não sabe sobre o Roc é que ele aprende rostos e não esquece. Ele reconhece cada pessoa da turma individualmente.
+[Caio]: O que a maioria nêo sabe sobre o Roc é que ele aprende rostos e nêo esquece. Ele reconhece cada pessoa da turma individualmente.
 
 [Valen]: Ele demorou duas semanas para me aceitar.
 
@@ -100,7 +100,7 @@
 
 <!-- scene: Coleira_inteligente_de_pet.png -->
 
-> Antes das apresentações na sala, a professora mostrou como as coleiras funcionavam para quem ainda não conhecia bem a tecnologia.
+> Antes das apresentações na sala, a professora mostrou como as coleiras funcionavam para quem ainda nêo conhecia bem a tecnologia.
 
 [Professora]: As coleiras leem o estado emocional do animal em tempo real. Se ele ficar agitado, o sensor age preventivamente — sem dor, sem susto.
 
@@ -122,7 +122,7 @@
 
 [Lumi]: Ele ficou vermelho se pudesse.
 
-[Maya]: Ratinhos não ficam vermelhos. Mas eu juro que ele entendeu.
+[Maya]: Ratinhos nêo ficam vermelhos. Mas eu juro que ele entendeu.
 
 <!-- scene: rosinha.png -->
 
@@ -130,7 +130,7 @@
 
 [Lumi]: Rosinha é a pet da Bela, da turma B. Mas todo mundo conhece ela porque ela grunhe quando está feliz — e hoje ela está muito feliz.
 
-[PIX-Z]: Frequência de grunhidos: acima do normal. Análise: excitação social elevada. Conclusão: contente.
+[PIX-Z]: Frequência de grunhidos: acima do normal. Análise: excitaçêo social elevada. Conclusêo: contente.
 
 [Maya]: Ela concorda com você, PIX-Z.
 
@@ -150,11 +150,11 @@
 
 > PIX-Z. O assistente robótico da escola. Hoje ele circulava pelo pátio registrando tudo — métricas de comportamento, temperatura, interações.
 
-[PIX-Z]: Observação: nível de coesão do grupo humano-animal acima da média escolar em 340%. Este é o maior índice que já registrei.
+[PIX-Z]: Observaçêo: nível de coesêo do grupo humano-animal acima da média escolar em 340%. Este é o maior índice que já registrei.
 
 [Valen]: PIX-Z, você também é um pet hoje?
 
-[PIX-Z]: Não possuo classificação biológica para tal.
+[PIX-Z]: Nêo possuo classificaçêo biológica para tal.
 
 [Maya]: Mas você está aqui com a gente. Isso conta.
 
@@ -168,7 +168,7 @@
 
 [Caio]: Ou o dono desenvolve a personalidade que complementa o pet.
 
-[Lumi]: Acho que são as duas coisas ao mesmo tempo.
+[Lumi]: Acho que sêo as duas coisas ao mesmo tempo.
 
 [Valen]: Filosofia de pet. Quem diria.
 
@@ -188,7 +188,7 @@
 
 > O fim da tarde chegou. Pets cansados, estudantes satisfeitos, e o pátio cheio de histórias para contar.
 
-[Valen]: Ale está deitado ao sol com o Roc do lado. Dois animais que normalmente não seriam amigos.
+[Valen]: Ale está deitado ao sol com o Roc do lado. Dois animais que normalmente nêo seriam amigos.
 
 [Caio]: Nenhum de nós seria amigo do outro se dependesse de probabilidade estatística.
 

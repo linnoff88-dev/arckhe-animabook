@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import { SpeechBubble as SpeechBubbleType } from '@/lib/types';
 import { bubbleVariants } from '@/lib/animationVariants';
 
-// Posições padrão quando x/y não estão definidos
+// Posições padrêo quando x/y nêo estêo definidos
 const DEFAULTS = [
   { x: 0.08, y: 0.08 },
   { x: 0.55, y: 0.18 },
@@ -70,7 +70,7 @@ export function SpeechBubble({ bubble, index, containerRef, onMove }: SpeechBubb
             : '2px 3px 0 rgba(0,0,0,0.35)',
         }}
       >
-        {/* Cauda do balão (V) — só no reader, não no editor arrastável */}
+        {/* Cauda do balêo (V) — só no reader, nêo no editor arrastável */}
         {!isDraggable && (
           <>
             {/* borda da cauda */}

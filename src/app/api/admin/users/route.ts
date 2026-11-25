@@ -37,7 +37,7 @@ export async function PATCH(request: NextRequest) {
   const { userId, role } = body;
 
   if (!userId || !role) {
-    return NextResponse.json({ error: 'userId e role são obrigatórios' }, { status: 400 });
+    return NextResponse.json({ error: 'userId e role sêo obrigatórios' }, { status: 400 });
   }
 
   const validRoles: Role[] = ['user', 'creator', 'editor', 'admin'];
@@ -45,9 +45,9 @@ export async function PATCH(request: NextRequest) {
     return NextResponse.json({ error: `role deve ser: ${validRoles.join(', ')}` }, { status: 400 });
   }
 
-  // Não pode remover admin de si mesmo
+  // Nêo pode remover admin de si mesmo
   if (userId === auth.userId && role !== 'admin') {
-    return NextResponse.json({ error: 'Você não pode rebaixar a si mesmo' }, { status: 400 });
+    return NextResponse.json({ error: 'Você nêo pode rebaixar a si mesmo' }, { status: 400 });
   }
 
   const supabase = getAdminClient();

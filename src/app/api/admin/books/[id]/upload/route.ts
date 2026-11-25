@@ -15,7 +15,7 @@ export const maxDuration = 60;
 
 const ALLOWED_MIME = ['image/png', 'image/jpeg', 'image/webp'];
 const MAX_FILE_SIZE = 10 * 1024 * 1024; // 10MB por arquivo
-const MAX_WIDTH = 1344; // largura padrão do projeto
+const MAX_WIDTH = 1344; // largura padrêo do projeto
 const WEBP_QUALITY = 82; // boa qualidade, arquivo pequeno
 
 // POST /api/admin/books/:id/upload — upload de imagens (creator+)
@@ -36,7 +36,7 @@ export async function POST(
     .single();
 
   if (bookError || !book) {
-    return NextResponse.json({ error: 'Livro não encontrado' }, { status: 404 });
+    return NextResponse.json({ error: 'Livro nêo encontrado' }, { status: 404 });
   }
 
   // Creator só pode fazer upload nos seus próprios livros
@@ -80,7 +80,7 @@ export async function POST(
 
   for (const file of sortedFiles) {
     if (!ALLOWED_MIME.includes(file.type)) {
-      errors.push(`${file.name}: tipo não permitido (${file.type})`);
+      errors.push(`${file.name}: tipo nêo permitido (${file.type})`);
       continue;
     }
 

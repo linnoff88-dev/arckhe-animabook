@@ -4,9 +4,9 @@
 
 > A turma chegou antes do sino. Alguma coisa no ar dizia que a aula de hoje seria diferente.
 
-[Lumi]: Professor, por que as luzes estão apagadas?
+[Lumi]: Professor, por que as luzes estêo apagadas?
 
-[Professor]: Esperem um segundo. Vocês vão entender.
+[Professor]: Esperem um segundo. Vocês vêo entender.
 
 [Caio]: Nunca vi a sala assim antes.
 
@@ -14,9 +14,9 @@
 
 <!-- scene: Cena_01_Abertura_A_Aula_da_Lua_Comeca.png -->
 
-> As luzes diminuíram até o negro total. Então o teto se abriu — não de verdade, mas parecia. O sistema solar girava acima das cabeças de todos, lento e imenso.
+> As luzes diminuíram até o negro total. Entêo o teto se abriu — nêo de verdade, mas parecia. O sistema solar girava acima das cabeças de todos, lento e imenso.
 
-[Professor]: Hoje vamos falar sobre a Lua. Não como algo distante e bonito. Como um sistema físico completo que afeta diretamente a vida na Terra. E que os humanos já pisaram.
+[Professor]: Hoje vamos falar sobre a Lua. Nêo como algo distante e bonito. Como um sistema físico completo que afeta diretamente a vida na Terra. E que os humanos já pisaram.
 
 [Maya]: Já pisaram mesmo?
 
@@ -24,23 +24,23 @@
 
 [Valen]: Ela sempre parece igual. Sempre o mesmo lado para a gente.
 
-[Professor]: Boa observação, Valen. Isso não é coincidência — é física. E começamos por aí.
+[Professor]: Boa observaçêo, Valen. Isso nêo é coincidência — é física. E começamos por aí.
 
 <!-- scene: Cena_02_Lumi_Pergunta_O_Que_E_a_Lua.png -->
 
-> Lumi levantou a mão bem devagar, como se a pergunta fosse pesada demais para carregar rápido.
+> Lumi levantou a mêo bem devagar, como se a pergunta fosse pesada demais para carregar rápido.
 
 [Lumi]: Por que a Lua sempre mostra o mesmo lado para a Terra?
 
-[Professor]: Isso se chama rotação síncrona. A Lua demora o mesmo tempo para girar em torno de si mesma e para orbitar a Terra. Por isso vemos sempre a mesma face.
+[Professor]: Isso se chama rotaçêo síncrona. A Lua demora o mesmo tempo para girar em torno de si mesma e para orbitar a Terra. Por isso vemos sempre a mesma face.
 
-[Caio]: É coincidência ou tem razão física?
+[Caio]: É coincidência ou tem razêo física?
 
-[Professor]: Física pura. A gravidade da Terra frenou a rotação da Lua ao longo de bilhões de anos até sincronizar. Isso acontece com muitas luas no sistema solar.
+[Professor]: Física pura. A gravidade da Terra frenou a rotaçêo da Lua ao longo de bilhões de anos até sincronizar. Isso acontece com muitas luas no sistema solar.
 
-[Lumi]: Então o outro lado da Lua nunca vi... nunca viu a Terra?
+[Lumi]: Entêo o outro lado da Lua nunca vi... nunca viu a Terra?
 
-[Professor]: Nunca. Há bilhões de anos. Existe um lado da Lua que não sabe o que é amanhecer aqui.
+[Professor]: Nunca. Há bilhões de anos. Existe um lado da Lua que nêo sabe o que é amanhecer aqui.
 
 [Maya]: Isso é meio triste.
 
@@ -48,7 +48,7 @@
 
 <!-- scene: Cena_03_Projecao_Holografica_A_Lua_em.png -->
 
-> O professor ativou a projeção da Lua em tamanho real. Era possível ver cada cratera, cada mar de basalto, cada sombra nos polos — como se ela estivesse flutuando ali mesmo no meio da sala.
+> O professor ativou a projeçêo da Lua em tamanho real. Era possível ver cada cratera, cada mar de basalto, cada sombra nos polos — como se ela estivesse flutuando ali mesmo no meio da sala.
 
 [Valen]: Parece que posso tocar.
 
@@ -56,7 +56,7 @@
 
 [Valen]: Porque a Terra faz sombra nela?
 
-[Professor]: Quase. As fases não são sombra da Terra — são a posição da Lua em relação ao Sol. Conforme ela orbita a Terra, vemos partes iluminadas diferentes.
+[Professor]: Quase. As fases nêo sêo sombra da Terra — sêo a posiçêo da Lua em relaçêo ao Sol. Conforme ela orbita a Terra, vemos partes iluminadas diferentes.
 
 [PIX-Z]: Ciclo completo das fases: 29 dias, 12 horas, 44 minutos e 3 segundos. Popularmente chamado de mês lunar.
 
@@ -66,31 +66,31 @@
 
 <!-- scene: Cena_04_Vista_do_Espaco_Orbita_e_Fase.png -->
 
-> A projeção expandiu para o espaço. Agora dava para ver a Terra e a Lua juntas, orbitando, com o Sol ao fundo. A escala era absurda — a Lua parecia minúscula, mas estava tão perto.
+> A projeçêo expandiu para o espaço. Agora dava para ver a Terra e a Lua juntas, orbitando, com o Sol ao fundo. A escala era absurda — a Lua parecia minúscula, mas estava têo perto.
 
 [Caio]: A distância média da Lua é quanto?
 
 [Professor]: 384 mil quilômetros. Luz do Sol refletida chega aqui em pouco mais de um segundo.
 
-[Lumi]: Mas ela parece tão grande no céu às vezes.
+[Lumi]: Mas ela parece têo grande no céu às vezes.
 
-[Professor]: Ilusão óptica. Quando a Lua está no horizonte, o cérebro a compara com árvores e prédios e a percebe como maior. No zênite, sem referência, parece menor.
+[Professor]: Ilusêo óptica. Quando a Lua está no horizonte, o cérebro a compara com árvores e prédios e a percebe como maior. No zênite, sem referência, parece menor.
 
-[Maya]: Então nosso cérebro mente para a gente o tempo todo?
+[Maya]: Entêo nosso cérebro mente para a gente o tempo todo?
 
 [Professor]: Interpreta. O cérebro sempre tenta dar sentido ao que vê usando o que conhece.
 
-[Valen]: E a órbita não é circular?
+[Valen]: E a órbita nêo é circular?
 
 [Professor]: É elíptica. Tem dias em que a Lua está 50 mil quilômetros mais perto do que em outros. Chamamos de Superlua quando coincide com lua cheia.
 
 <!-- scene: Cena_05_Caio_Descobre_a_Fisica_Gravid.png -->
 
-> Caio estava olhando para a projeção com uma expressão que todos conheciam — a de quando algo grande estava se encaixando na cabeça dele.
+> Caio estava olhando para a projeçêo com uma expressêo que todos conheciam — a de quando algo grande estava se encaixando na cabeça dele.
 
 [Caio]: Se a gravidade da Terra freou a Lua... a Lua também está freando a Terra?
 
-[Professor]: Excelente, Caio. Sim. As marés que a Lua cria nos oceanos geram um atrito que diminui, muito lentamente, a rotação da Terra.
+[Professor]: Excelente, Caio. Sim. As marés que a Lua cria nos oceanos geram um atrito que diminui, muito lentamente, a rotaçêo da Terra.
 
 [Caio]: Em quanto?
 
@@ -100,7 +100,7 @@
 
 [Professor]: Muito. Há quatro bilhões de anos, um dia na Terra durava apenas seis horas. A Lua estava muito mais perto, a gravidade era mais intensa, tudo girava mais rápido.
 
-[PIX-Z]: Projeção calculada: daqui a 50 bilhões de anos, um dia na Terra terá a mesma duração que um mês lunar atual.
+[PIX-Z]: Projeçêo calculada: daqui a 50 bilhões de anos, um dia na Terra terá a mesma duraçêo que um mês lunar atual.
 
 [Maya]: Isso é um número impossível de imaginar.
 
@@ -108,19 +108,19 @@
 
 <!-- scene: Cena_06_Visualizacao_A_Lua_Puxa_os_Oc.png -->
 
-> A projeção mudou para os oceanos. Dava para ver a massa de água se movendo, sendo puxada por uma força invisível — como se a Lua estivesse respirando e a Terra respondesse.
+> A projeçêo mudou para os oceanos. Dava para ver a massa de água se movendo, sendo puxada por uma força invisível — como se a Lua estivesse respirando e a Terra respondesse.
 
 [Maya]: E as marés? Isso é por causa da Lua também?
 
-[Professor]: Exatamente. A gravidade da Lua puxa a água dos oceanos. Quando a Lua está acima, o oceano se levanta em direção a ela. Isso cria dois puxões opostos na Terra — e duas marés altas por dia.
+[Professor]: Exatamente. A gravidade da Lua puxa a água dos oceanos. Quando a Lua está acima, o oceano se levanta em direçêo a ela. Isso cria dois puxões opostos na Terra — e duas marés altas por dia.
 
 [Valen]: Por que dois puxões? Ela só está de um lado.
 
-[Professor]: Boa pergunta. O lado próximo é puxado mais forte. O lado oposto, menos. A Terra se "estica" levemente nessa direção. Dois pontos de maré alta, dois de maré baixa, girando junto com a Lua.
+[Professor]: Boa pergunta. O lado próximo é puxado mais forte. O lado oposto, menos. A Terra se "estica" levemente nessa direçêo. Dois pontos de maré alta, dois de maré baixa, girando junto com a Lua.
 
 [Lumi]: Isso acontece no planeta inteiro ao mesmo tempo?
 
-[Professor]: O tempo todo. Agora mesmo os oceanos estão respondendo à posição da Lua. A vida marinha evoluiu inteira ao ritmo dessas marés.
+[Professor]: O tempo todo. Agora mesmo os oceanos estêo respondendo à posiçêo da Lua. A vida marinha evoluiu inteira ao ritmo dessas marés.
 
 [PIX-Z]: Curiosidade: durante lua nova e lua cheia, o Sol, a Terra e a Lua se alinham. A força combinada cria as chamadas marés de sizígia — as mais intensas do ciclo.
 
@@ -128,23 +128,23 @@
 
 <!-- scene: Cena_08_Historia_Apollo_11_e_a_Grande.png -->
 
-> A projeção saltou para uma imagem histórica — um foguete imenso, branco e preto, levantando voo entre chamas e fumaça. A data apareceu no canto: 16 de julho de 1969.
+> A projeçêo saltou para uma imagem histórica — um foguete imenso, branco e preto, levantando voo entre chamas e fumaça. A data apareceu no canto: 16 de julho de 1969.
 
 [Professor]: E chegamos à parte que muda tudo. Em 1961, um presidente disse que os Estados Unidos iriam à Lua antes do fim da década. Em 1969, eles foram.
 
 [Valen]: Em menos de dez anos?
 
-[Professor]: Oito anos. Com tecnologia que hoje parece primitiva. Computadores menos potentes do que o celular de qualquer um de vocês. Engenheiros calculando trajetórias à mão em pranchetas.
+[Professor]: Oito anos. Com tecnologia que hoje parece primitiva. Computadores menos potentes do que o celular de qualquer um de vocês. Engenheiros calculando trajetórias à mêo em pranchetas.
 
 [Maya]: Como?
 
-[Professor]: Mais de 400 mil pessoas trabalhando para um único objetivo. Físicos, matemáticos, engenheiros, costureiras que fabricavam os trajes à mão. Foi o maior esforço coordenado da história da ciência aplicada.
+[Professor]: Mais de 400 mil pessoas trabalhando para um único objetivo. Físicos, matemáticos, engenheiros, costureiras que fabricavam os trajes à mêo. Foi o maior esforço coordenado da história da ciência aplicada.
 
 [Lumi]: Deu alguma coisa errada?
 
-[Professor]: Muita coisa. A missão Apollo 1 pegou fogo no solo e matou três astronautas. O Apollo 13 quase foi tragédia no espaço. Mas pararam, aprenderam, ajustaram. Não desistiram.
+[Professor]: Muita coisa. A missêo Apollo 1 pegou fogo no solo e matou três astronautas. O Apollo 13 quase foi tragédia no espaço. Mas pararam, aprenderam, ajustaram. Nêo desistiram.
 
-[PIX-Z]: Registro: entre 1969 e 1972, doze seres humanos caminharam na superfície lunar. Nenhum desde então.
+[PIX-Z]: Registro: entre 1969 e 1972, doze seres humanos caminharam na superfície lunar. Nenhum desde entêo.
 
 [Caio]: Doze em toda a história da humanidade. E parou aí.
 
@@ -152,7 +152,7 @@
 
 <!-- scene: Cena_09_O_Primeiro_Passo_na_Lua.png -->
 
-> A imagem era granulada, quase nevando de estática — transmissão de 1969. Um homem de traje branco descia a escada metálica da cápsula, devagar, enquanto o silêncio da sala pesava como vácuo.
+> A imagem era granulada, quase nevando de estática — transmissêo de 1969. Um homem de traje branco descia a escada metálica da cápsula, devagar, enquanto o silêncio da sala pesava como vácuo.
 
 [Professor]: Em 20 de julho de 1969, Neil Armstrong desceu a escada da Eagle e pisou na Lua. Foram os primeiros passos de um ser humano em outro mundo.
 
@@ -168,7 +168,7 @@
 
 [Professor]: Nixon ligou. Armstrong atendeu. Da Lua.
 
-[Caio]: Mas o pouso quase não aconteceu. O computador travou no momento crítico.
+[Caio]: Mas o pouso quase nêo aconteceu. O computador travou no momento crítico.
 
 [Professor]: Sim. Alarme 1202. Armstrong assumiu o controle manual. Pousou com 17 segundos de combustível restante.
 
@@ -176,27 +176,27 @@
 
 [Professor]: Dezessete. Ele era piloto de teste. Manteve a calma. E pousou.
 
-[Caio]: A física permitia. A matemática confirmava. Mas sem a decisão humana no segundo certo, não teria acontecido.
+[Caio]: A física permitia. A matemática confirmava. Mas sem a decisêo humana no segundo certo, nêo teria acontecido.
 
 [Professor]: Exatamente, Caio. Tecnologia e humanidade, juntas, no momento certo.
 
 <!-- scene: Astronauta_Apollo_na_Lua.png -->
 
-> Na projeção final, um astronauta com traje branco caminhava pela superfície lunar. Solo cinza infinito. Silêncio absoluto. E lá no alto, suspensa no espaço, a Terra — azul, pequena, frágil.
+> Na projeçêo final, um astronauta com traje branco caminhava pela superfície lunar. Solo cinza infinito. Silêncio absoluto. E lá no alto, suspensa no espaço, a Terra — azul, pequena, frágil.
 
-[Lumi]: As pegadas deles ainda estão lá?
+[Lumi]: As pegadas deles ainda estêo lá?
 
-[Professor]: Ainda estão. Sem vento, sem chuva, sem nada que apague. Vão continuar por milênios.
+[Professor]: Ainda estêo. Sem vento, sem chuva, sem nada que apague. Vêo continuar por milênios.
 
-[PIX-Z]: Cálculo: as pegadas de Armstrong e Aldrin permanecerão intactas por pelo menos 10 milhões de anos, a menos que sejam atingidas por meteoritos.
+[PIX-Z]: Cálculo: as pegadas de Armstrong e Aldrin permanecerêo intactas por pelo menos 10 milhões de anos, a menos que sejam atingidas por meteoritos.
 
-[Maya]: Dez milhões de anos. Nós não vamos existir mais, mas as pegadas sim.
+[Maya]: Dez milhões de anos. Nós nêo vamos existir mais, mas as pegadas sim.
 
-[Professor]: E essa é a nossa próxima pergunta. A história não acabou em 1972. Hoje existem projetos de retorno à Lua — bases permanentes, mineração de Hélio-3, trampolim para Marte. Na próxima aula vamos estudar o que significa viver lá: como se alimentar, como se proteger da radiação, o que sentir quando olha para a Terra e ela é do tamanho de uma bola de gude.
+[Professor]: E essa é a nossa próxima pergunta. A história nêo acabou em 1972. Hoje existem projetos de retorno à Lua — bases permanentes, mineraçêo de Hélio-3, trampolim para Marte. Na próxima aula vamos estudar o que significa viver lá: como se alimentar, como se proteger da radiaçêo, o que sentir quando olha para a Terra e ela é do tamanho de uma bola de gude.
 
-[Caio]: E eles já vão em breve?
+[Caio]: E eles já vêo em breve?
 
-[Professor]: Já estão planejando. Talvez quando vocês tiverem a idade que eu tenho agora, a Lua seja destino de viagem.
+[Professor]: Já estêo planejando. Talvez quando vocês tiverem a idade que eu tenho agora, a Lua seja destino de viagem.
 
 [Lumi]: Eu quero ir.
 
@@ -204,4 +204,4 @@
 
 [Maya]: Todos nós queremos.
 
-> A projeção apagou devagar. As luzes voltaram. A Lua sumiu do teto — mas não das cabeças de ninguém.
+> A projeçêo apagou devagar. As luzes voltaram. A Lua sumiu do teto — mas nêo das cabeças de ninguém.

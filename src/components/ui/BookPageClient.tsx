@@ -63,7 +63,7 @@ export function BookPageClient({ baseStory, synopsis, publications: initialPubli
   }, [pubs.length]);
 
   async function deletePub(pubId: string) {
-    if (!confirm('Excluir esta publicação? Esta ação não pode ser desfeita.')) return;
+    if (!confirm('Excluir esta publicaçêo? Esta açêo nêo pode ser desfeita.')) return;
     const sb = createSupabaseBrowserClient();
     const { data: { session } } = await sb.auth.getSession();
     if (!session?.access_token) return;
@@ -111,10 +111,10 @@ export function BookPageClient({ baseStory, synopsis, publications: initialPubli
       {/* ───── Sidebar ───── */}
       {pubs.length > 0 && (
         <>
-          {/* Botão toggle — sempre visível na borda esquerda */}
+          {/* Botêo toggle — sempre visível na borda esquerda */}
           <button
             onClick={() => setOpen(v => !v)}
-            title={open ? 'Fechar lista' : `${pubs.length} publicação(ões)`}
+            title={open ? 'Fechar lista' : `${pubs.length} publicaçêo(ões)`}
             style={{
               position: 'fixed',
               left: open ? 176 : 0,
@@ -317,7 +317,7 @@ export function BookPageClient({ baseStory, synopsis, publications: initialPubli
                       {userId === pub.authorId && (
                         <button
                           onClick={() => deletePub(pub.id)}
-                          title="Excluir publicação"
+                          title="Excluir publicaçêo"
                           style={{
                             background: 'none',
                             border: 'none',

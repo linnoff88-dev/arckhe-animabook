@@ -19,10 +19,10 @@ export default function DebugPage() {
     const out: Partial<Result> = {};
 
     try {
-      // 1. Sessão
+      // 1. Sessêo
       const sb = createSupabaseBrowserClient();
       const { data: { session } } = await sb.auth.getSession();
-      out.session = session ? `✅ ${session.user.email}` : '❌ Sem sessão';
+      out.session = session ? `✅ ${session.user.email}` : '❌ Sem sessêo';
       out.token = session?.access_token ? `✅ ${session.access_token.slice(0, 30)}...` : '❌ Sem token';
 
       // 2. Debug API
@@ -59,7 +59,7 @@ export default function DebugPage() {
 
   return (
     <div style={{ background: '#0a0612', minHeight: '100dvh', padding: '32px 16px', color: '#f5f0e8', fontFamily: 'monospace' }}>
-      <h1 style={{ color: '#e8c84a', marginBottom: '16px' }}>Debug de Autenticação</h1>
+      <h1 style={{ color: '#e8c84a', marginBottom: '16px' }}>Debug de Autenticaçêo</h1>
       <button
         onClick={runTests}
         disabled={loading}

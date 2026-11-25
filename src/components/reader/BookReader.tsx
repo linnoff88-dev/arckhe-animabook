@@ -46,7 +46,7 @@ export function BookReader({ story, isDevMode, isLoggedIn = false, publicationMe
       {/* Conteúdo centralizado e compacto */}
       <div className="relative z-10 flex flex-col w-full" style={{ maxWidth: '840px' }}>
 
-        {/* Subtítulo de publicação (autor) */}
+        {/* Subtítulo de publicaçêo (autor) */}
         {publicationMeta && (
           <div className="flex items-center gap-2 px-3 pt-2" style={{ flexWrap: 'wrap' }}>
             <Link
@@ -83,7 +83,7 @@ export function BookReader({ story, isDevMode, isLoggedIn = false, publicationMe
             backdropFilter: 'blur(12px)',
           }}
         >
-          {/* Botão Livros */}
+          {/* Botêo Livros */}
           <Link
             href="/"
             className="flex items-center gap-1.5 flex-shrink-0"
@@ -175,7 +175,7 @@ export function BookReader({ story, isDevMode, isLoggedIn = false, publicationMe
               </div>
             )}
 
-            {/* Setas de navegação */}
+            {/* Setas de navegaçêo */}
             <motion.button
               onClick={goPrev}
               disabled={isFirst || isTransitioning}
@@ -221,7 +221,7 @@ export function BookReader({ story, isDevMode, isLoggedIn = false, publicationMe
         {/* Progress dots */}
         <ProgressDots total={story.scenes.length} current={index} onDotClick={goTo} />
 
-        {/* Botão voltar ao início — só aparece quando não está na cena 1 */}
+        {/* Botêo voltar ao início — só aparece quando nêo está na cena 1 */}
         {!isFirst && (
           <div
             className="flex items-center justify-center px-4 py-4"

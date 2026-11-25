@@ -1,16 +1,16 @@
-# Ep10: A Terra — Exploração Completa
+# Ep10: A Terra — Exploraçêo Completa
 
 <!-- scene: Cena_01_A_Aula_Comeca_Bem-vindos_ao_P.png -->
 
-> Era a segunda aula sobre a Terra. A turma já sabia que não seria comum. O projetor holográfico estava em modo máximo — cobrindo não só o teto, mas as paredes e o chão.
+> Era a segunda aula sobre a Terra. A turma já sabia que nêo seria comum. O projetor holográfico estava em modo máximo — cobrindo nêo só o teto, mas as paredes e o chêo.
 
-[Professor]: Bem-vindos ao planeta. De verdade, desta vez. Vamos entrar nele, medi-lo, entender sua história, e sair com uma visão que não vão esquecer.
+[Professor]: Bem-vindos ao planeta. De verdade, desta vez. Vamos entrar nele, medi-lo, entender sua história, e sair com uma visêo que nêo vêo esquecer.
 
 [Valen]: Você disse "entrar nele"?
 
 [Professor]: Holograficamente. Hoje vamos às camadas internas, ao fundo do oceano, ao momento em que os continentes eram um só bloco, aos polos. Vamos ao planeta inteiro.
 
-[PIX-Z]: Sistema de projeção holográfica em capacidade máxima. Escala reduzida para 1:100.000.000. Iniciando sequência.
+[PIX-Z]: Sistema de projeçêo holográfica em capacidade máxima. Escala reduzida para 1:100.000.000. Iniciando sequência.
 
 [Caio]: Isso é sério?
 
@@ -32,17 +32,17 @@
 
 [PIX-Z]: Distância do Sol: 149,6 milhões de quilômetros. Chamada de "zona habitável" — distância onde a água permanece líquida. Um pouco mais perto: deserto como Vênus. Um pouco mais longe: congelado como Marte.
 
-[Caio]: A posição é o tudo.
+[Caio]: A posiçêo é o tudo.
 
-[Professor]: A posição, e o tempo. Levou 4,5 bilhões de anos para chegar ao estado atual.
+[Professor]: A posiçêo, e o tempo. Levou 4,5 bilhões de anos para chegar ao estado atual.
 
 <!-- scene: Cena_03_Lumi_Pergunta_Como_a_Terra_Fo.png -->
 
-> Lumi levantou a mão. Tinha uma pergunta há muito tempo. Agora, flutuando no espaço, ela fez sentido perguntar.
+> Lumi levantou a mêo. Tinha uma pergunta há muito tempo. Agora, flutuando no espaço, ela fez sentido perguntar.
 
 [Lumi]: Como a Terra foi formada? De onde veio tudo isso?
 
-[Professor]: Da mesma nuvem de gás e poeira que formou o Sol. Há 4,6 bilhões de anos, essa nuvem colapsou. O Sol se acendeu no centro. Os fragmentos restantes começaram a colidir e se agrupar — um processo chamado acreção.
+[Professor]: Da mesma nuvem de gás e poeira que formou o Sol. Há 4,6 bilhões de anos, essa nuvem colapsou. O Sol se acendeu no centro. Os fragmentos restantes começaram a colidir e se agrupar — um processo chamado acreçêo.
 
 [Lumi]: Colisões?
 
@@ -50,11 +50,11 @@
 
 [Maya]: Parece violento.
 
-[Professor]: Era. O planeta jovem era coberto por oceanos de magma. Sem crosta, sem atmosfera, sem vida. Apenas calor e pressão.
+[Professor]: Era. O planeta jovem era coberto por oceanos de magma. Sem crosta, sem atmosfera, sem vida. Apenas calor e pressêo.
 
-[PIX-Z]: Há aproximadamente 4,5 bilhões de anos, um objeto do tamanho de Marte colidiu com a proto-Terra. Os detritos dessa colisão formaram a Lua. A colisão também inclinou o eixo da Terra — o que criou as estações do ano.
+[PIX-Z]: Há aproximadamente 4,5 bilhões de anos, um objeto do tamanho de Marte colidiu com a proto-Terra. Os detritos dessa colisêo formaram a Lua. A colisêo também inclinou o eixo da Terra — o que criou as estações do ano.
 
-[Caio]: A Lua foi criada por uma colisão gigante?
+[Caio]: A Lua foi criada por uma colisêo gigante?
 
 [Professor]: A teoria mais aceita, sim. O planeta que conhecemos foi moldado por um impacto catastrófico.
 
@@ -70,9 +70,9 @@
 
 [Maya]: Somos recém-chegados.
 
-[Lumi]: E já mudamos tanto o planeta em tão pouco tempo.
+[Lumi]: E já mudamos tanto o planeta em têo pouco tempo.
 
-[Professor]: É o que torna a espécie humana singular — e também o que torna nossa responsabilidade enorme. Nunca antes uma espécie alterou o planeta em escala geológica tão rápido.
+[Professor]: É o que torna a espécie humana singular — e também o que torna nossa responsabilidade enorme. Nunca antes uma espécie alterou o planeta em escala geológica têo rápido.
 
 [Caio]: Isso é poder ou descuido?
 
@@ -82,25 +82,25 @@
 
 > O planeta se abriu ao meio. As camadas apareceram em cores vibrantes — como fatias de um fruto impossível.
 
-[Professor]: Quatro camadas principais. A crosta — onde vivemos. O manto — 84% do volume do planeta. O núcleo externo — ferro e níquel líquidos. O núcleo interno — ferro sólido sob pressão incompreensível.
+[Professor]: Quatro camadas principais. A crosta — onde vivemos. O manto — 84% do volume do planeta. O núcleo externo — ferro e níquel líquidos. O núcleo interno — ferro sólido sob pressêo incompreensível.
 
 [Caio]: A crosta parece fina demais.
 
-[Professor]: É. Entre 5 e 70 quilômetros de espessura. Comparada com o raio total de 6.371 quilômetros, a crosta é como a casca de uma maçã.
+[Professor]: É. Entre 5 e 70 quilômetros de espessura. Comparada com o raio total de 6.371 quilômetros, a crosta é como a casca de uma maçê.
 
 [Lumi]: E a gente vive na casca.
 
 [Professor]: Exatamente. Na camada mais externa de uma estrutura que tem 6.000 graus no centro.
 
-[PIX-Z]: O manto não é líquido — é sólido, mas se comporta como um fluido em escala de tempo de milhões de anos. Rochas do manto "fluem" em convecção lenta, carregando as placas tectônicas acima delas como uma correia transportadora.
+[PIX-Z]: O manto nêo é líquido — é sólido, mas se comporta como um fluido em escala de tempo de milhões de anos. Rochas do manto "fluem" em convecçêo lenta, carregando as placas tectônicas acima delas como uma correia transportadora.
 
 [Maya]: As placas andam em cima de rocha que flui?
 
-[Professor]: Em cima de rocha que parece sólida mas, em escala de tempo geológico, é plástica. É como pisar em alcatrão — rígido no momento, fluido ao longo do tempo.
+[Professor]: Em cima de rocha que parece sólida mas, em escala de tempo geológico, é plástica. É como pisar em alcatrêo — rígido no momento, fluido ao longo do tempo.
 
 <!-- scene: Cena_06_Maya_Pergunta_Quanto_Calor_Te.png -->
 
-> Maya olhou para o núcleo projetado. Aquele branco ofuscante no centro. Não era abstrato — ela queria sentir a escala daquilo.
+> Maya olhou para o núcleo projetado. Aquele branco ofuscante no centro. Nêo era abstrato — ela queria sentir a escala daquilo.
 
 [Maya]: Quanto calor tem lá dentro, de verdade?
 
@@ -110,9 +110,9 @@
 
 [Professor]: Em termos de temperatura, sim. Separados por 6.000 quilômetros de rocha e metal.
 
-[Valen]: Por que não derretemos?
+[Valen]: Por que nêo derretemos?
 
-[Professor]: A crosta e o manto funcionam como isolantes. O calor sobe muito lentamente — em vulcões, em fontes termais, em zonas de subducção onde as placas afundam. Mas a maior parte fica contida.
+[Professor]: A crosta e o manto funcionam como isolantes. O calor sobe muito lentamente — em vulcões, em fontes termais, em zonas de subducçêo onde as placas afundam. Mas a maior parte fica contida.
 
 [Lumi]: O planeta está vazando calor?
 
@@ -126,7 +126,7 @@
 
 > PIX-Z exibiu uma escala de temperatura. Das mais frias às mais quentes já registradas na Terra.
 
-[PIX-Z]: Temperatura mais fria já registrada na superfície: -89,2 graus Celsius. Antártida, 1983. Temperatura mais quente na superfície: 56,7 graus Celsius. Vale da Morte, Califórnia, 1913. Temperatura do manto superior: entre 500 e 900 graus. Temperatura da lava de vulcão: entre 700 e 1.200 graus. Temperatura do núcleo externo: 4.000 graus. Temperatura do núcleo interno: 5.200 graus.
+[PIX-Z]: Temperatura mais fria já registrada na superfície: -89,2 graus Celsius. Antártida, 1983. Temperatura mais quente na superfície: 56,7 graus Celsius. Vale da Morte, Califórnia, 1913. Temperatura do manto superior: entre 500 e 900 graus. Temperatura da lava de vulcêo: entre 700 e 1.200 graus. Temperatura do núcleo externo: 4.000 graus. Temperatura do núcleo interno: 5.200 graus.
 
 [Valen]: Uma diferença de 5.289 graus entre o ponto mais frio e o mais quente do planeta.
 
@@ -138,7 +138,7 @@
 
 [Lumi]: O planeta é maior do que a gente precisa dele para sobreviver.
 
-[Professor]: O planeta não precisa de nós. Nós precisamos de uma fatia muito específica do que ele oferece.
+[Professor]: O planeta nêo precisa de nós. Nós precisamos de uma fatia muito específica do que ele oferece.
 
 <!-- scene: Cena_08_Caio_Questiona_Qual_o_Tamanho.png -->
 
@@ -152,13 +152,13 @@
 
 [PIX-Z]: Massa da Terra: 5,97 sextilhões de toneladas. Escrito por extenso: 5.970.000.000.000.000.000.000 toneladas.
 
-[Valen]: Esse número não tem sentido.
+[Valen]: Esse número nêo tem sentido.
 
-[PIX-Z]: Nenhum número nessa escala tem sentido intuitivo. A mente humana não foi construída para perceber grandezas geológicas ou astronômicas diretamente. É por isso que usamos proporções e analogias.
+[PIX-Z]: Nenhum número nessa escala tem sentido intuitivo. A mente humana nêo foi construída para perceber grandezas geológicas ou astronômicas diretamente. É por isso que usamos proporções e analogias.
 
-[Caio]: Então dê uma analogia.
+[Caio]: Entêo dê uma analogia.
 
-[PIX-Z]: Se a Terra fosse reduzida ao tamanho de uma bola de basquete, o ser humano teria o tamanho de um vírus em relação a ela. E o Sol teria o tamanho de um prédio de 30 andares ao lado dessa bola.
+[PIX-Z]: Se a Terra fosse reduzida ao tamanho de uma bola de basquete, o ser humano teria o tamanho de um vírus em relaçêo a ela. E o Sol teria o tamanho de um prédio de 30 andares ao lado dessa bola.
 
 [Maya]: Somos microscópicos.
 
@@ -168,15 +168,15 @@
 
 > PIX-Z projetou uma sequência de números em tamanhos crescentes. Cada um mais incompreensível que o anterior.
 
-[PIX-Z]: Velocidade de rotação no equador: 1.674 quilômetros por hora. Velocidade de translação ao redor do Sol: 107.000 quilômetros por hora. Idade do planeta: 4,54 bilhões de anos. Número estimado de espécies vivas: 8,7 milhões. Número de neurônios no cérebro humano: 86 bilhões. Número de estrelas na Via Láctea: 200 bilhões. Número de galáxias no universo observável: 2 trilhões.
+[PIX-Z]: Velocidade de rotaçêo no equador: 1.674 quilômetros por hora. Velocidade de translaçêo ao redor do Sol: 107.000 quilômetros por hora. Idade do planeta: 4,54 bilhões de anos. Número estimado de espécies vivas: 8,7 milhões. Número de neurônios no cérebro humano: 86 bilhões. Número de estrelas na Via Láctea: 200 bilhões. Número de galáxias no universo observável: 2 trilhões.
 
 [Lumi]: Para que serve saber esses números?
 
-[Professor]: Para ter escala. Para saber onde você está. Para não confundir o que é importante com o que parece importante no seu campo de visão imediato.
+[Professor]: Para ter escala. Para saber onde você está. Para nêo confundir o que é importante com o que parece importante no seu campo de visêo imediato.
 
 [Valen]: Você está dizendo que perspectiva muda tudo?
 
-[Professor]: Estou dizendo que a maioria dos conflitos humanos — individuais, sociais, históricos — seria diferente se as pessoas soubessem exatamente em que ponto do universo estão.
+[Professor]: Estou dizendo que a maioria dos conflitos humanos — individuais, sociais, históricos — seria diferente se as pessoas soubessem exatamente em que ponto do universo estêo.
 
 [Caio]: Um ponto muito pequeno, em movimento muito rápido, há muito tempo.
 
@@ -184,7 +184,7 @@
 
 <!-- scene: Cena_10_Valen_Pergunta_E_os_Oceanos_.png -->
 
-> Valen deu um passo à frente no espaço holográfico. O oceano cobria três quartos da projeção embaixo deles. Ela queria entender o que estava debaixo daquela superfície.
+> Valen deu um passo à frente no espaço holográfico. O oceano cobria três quartos da projeçêo embaixo deles. Ela queria entender o que estava debaixo daquela superfície.
 
 [Valen]: E os oceanos? O que tem lá dentro, de verdade?
 
@@ -194,7 +194,7 @@
 
 [Professor]: Combinados. É o maior objeto geográfico da superfície terrestre. Tem regiões que nunca foram exploradas por humanos.
 
-[PIX-Z]: Profundidade média dos oceanos: 3.688 metros. Ponto mais profundo: Fossa das Marianas, 10.935 metros. Volume total de água nos oceanos: 1,335 bilhão de quilômetros cúbicos.
+[PIX-Z]: Profundidade média dos oceanos: 3.688 metros. Ponto mais profundo: Fossa das Marianas, 10.935 metros. Volume total de água nos oceanos: 1,335 bilhêo de quilômetros cúbicos.
 
 [Maya]: E tem vida em toda essa profundidade?
 
@@ -202,27 +202,27 @@
 
 [Lumi]: Por que?
 
-[Professor]: Porque o espaço é mais fácil de explorar do que o fundo dos oceanos. No espaço, a pressão é zero. No fundo dos oceanos, a pressão é tão alta que esmaga a maioria dos equipamentos.
+[Professor]: Porque o espaço é mais fácil de explorar do que o fundo dos oceanos. No espaço, a pressêo é zero. No fundo dos oceanos, a pressêo é têo alta que esmaga a maioria dos equipamentos.
 
 <!-- scene: Cena_11_Mergulho_Abissal_A_Fossa_das_.png -->
 
-> A projeção mergulhou. A luz foi desaparecendo. A 200 metros, quase nada penetrava. A 1.000 metros, escuridão total. E ainda descendo — até 10.935 metros.
+> A projeçêo mergulhou. A luz foi desaparecendo. A 200 metros, quase nada penetrava. A 1.000 metros, escuridêo total. E ainda descendo — até 10.935 metros.
 
 [Professor]: A Fossa das Marianas. No Oceano Pacífico, a leste das Ilhas Marianas. O ponto mais fundo do planeta.
 
-[Caio]: Qual a pressão lá embaixo?
+[Caio]: Qual a pressêo lá embaixo?
 
 [PIX-Z]: 1.086 bar. Equivalente a ter 50 aviões jumbo empilhados sobre cada centímetro quadrado do seu corpo.
 
 [Valen]: Isso é impossível de sobreviver.
 
-[Professor]: Para humanos sem proteção, sim. Mas há formas de vida que evoluíram especificamente para essa pressão. Pepinos-do-mar, anfípodes, bactérias que usam a pressão como fonte de energia.
+[Professor]: Para humanos sem proteçêo, sim. Mas há formas de vida que evoluíram especificamente para essa pressêo. Pepinos-do-mar, anfípodes, bactérias que usam a pressêo como fonte de energia.
 
 [Maya]: Animais que vivem onde nós morreríamos em segundos.
 
-[Professor]: A vida não define seus limites pela nossa biologia. Ela vai onde consegue encontrar energia e se reproduzir. E encontrou energia no lugar mais improvável do planeta.
+[Professor]: A vida nêo define seus limites pela nossa biologia. Ela vai onde consegue encontrar energia e se reproduzir. E encontrou energia no lugar mais improvável do planeta.
 
-[PIX-Z]: Primeira descida humana à Fossa das Marianas: 1960. Exploradores Jacques Piccard e Don Walsh. A descida levou 4 horas e 47 minutos. No fundo, viram um camarão e um peixe-linguado — prova de vida onde ninguém esperava.
+[PIX-Z]: Primeira descida humana à Fossa das Marianas: 1960. Exploradores Jacques Piccard e Don Walsh. A descida levou 4 horas e 47 minutos. No fundo, viram um camarêo e um peixe-linguado — prova de vida onde ninguém esperava.
 
 [Lumi]: Em 1960.
 
@@ -230,19 +230,19 @@
 
 <!-- scene: Cena_12_Lumi_Reage_Espantada_com_o_Fu.png -->
 
-> Lumi olhou para o fundo projetado. Criaturas bioluminescentes flutuando no escuro. Formas que não pareciam terrestres. Ela ficou em silêncio por um momento.
+> Lumi olhou para o fundo projetado. Criaturas bioluminescentes flutuando no escuro. Formas que nêo pareciam terrestres. Ela ficou em silêncio por um momento.
 
 [Lumi]: Isso... parece outro planeta.
 
-[Professor]: Em muitos aspectos, é. Pressão diferente, temperatura diferente, sem luz solar, sem fotossíntese. A cadeia alimentar funciona a partir de quimiosíntese — bactérias que convertem compostos químicos em energia.
+[Professor]: Em muitos aspectos, é. Pressêo diferente, temperatura diferente, sem luz solar, sem fotossíntese. A cadeia alimentar funciona a partir de quimiosíntese — bactérias que convertem compostos químicos em energia.
 
 [Lumi]: Sem Sol?
 
-[Professor]: Sem Sol. A vida no fundo abissal não depende de fotossíntese. Isso tem uma implicação enorme: se pode existir vida sem luz solar na Terra, pode existir em luas oceânicas do sistema solar — Europa, Encélado, Titã.
+[Professor]: Sem Sol. A vida no fundo abissal nêo depende de fotossíntese. Isso tem uma implicaçêo enorme: se pode existir vida sem luz solar na Terra, pode existir em luas oceânicas do sistema solar — Europa, Encélado, Titê.
 
 [Maya]: Você está dizendo que já encontramos vida alienígena sem saber?
 
-[Professor]: Estou dizendo que já encontramos um modelo de vida que pode ser o mesmo que existe em outros mundos. Se tiver lá, não saberemos ainda. Mas sabemos que é possível.
+[Professor]: Estou dizendo que já encontramos um modelo de vida que pode ser o mesmo que existe em outros mundos. Se tiver lá, nêo saberemos ainda. Mas sabemos que é possível.
 
 [Caio]: O modelo da Terra é mais amplo do que pensávamos.
 
@@ -250,7 +250,7 @@
 
 <!-- scene: Cena_13_PIX-Z_Mostra_a_Pangeia_Um_Uni.png -->
 
-> A projeção subiu de volta para a superfície. Mas agora mostrava um mapa antigo — um único bloco de terra circundado por um oceano imenso.
+> A projeçêo subiu de volta para a superfície. Mas agora mostrava um mapa antigo — um único bloco de terra circundado por um oceano imenso.
 
 [PIX-Z]: Há 335 milhões de anos, todos os continentes atuais formavam um único supercontinente chamado Pangeia. Um único oceano circundava esse bloco: o Panthalassa.
 
@@ -260,15 +260,15 @@
 
 [Valen]: A Índia era um continente separado?
 
-[PIX-Z]: Por aproximadamente 90 milhões de anos, a Índia foi uma ilha em movimento, cruzando o que hoje é o Oceano Índico a cerca de 20 centímetros por ano — rápido para padrões tectônicos. A colisão com a Ásia começou há 50 milhões de anos e ainda está acontecendo.
+[PIX-Z]: Por aproximadamente 90 milhões de anos, a Índia foi uma ilha em movimento, cruzando o que hoje é o Oceano Índico a cerca de 20 centímetros por ano — rápido para padrões tectônicos. A colisêo com a Ásia começou há 50 milhões de anos e ainda está acontecendo.
 
 [Caio]: A Índia ainda está colidindo com a Ásia?
 
-[Professor]: Ainda. O Himalaia ainda cresce alguns milímetros por ano. As montanhas mais altas do mundo são formadas por uma colisão que ainda está em andamento.
+[Professor]: Ainda. O Himalaia ainda cresce alguns milímetros por ano. As montanhas mais altas do mundo sêo formadas por uma colisêo que ainda está em andamento.
 
 <!-- scene: Cena_14_Maya_Entusiasmada_O_Quebra-Ca.png -->
 
-> Maya olhava para a projeção com energia nova. Ela havia visto algo que os outros ainda não tinham percebido.
+> Maya olhava para a projeçêo com energia nova. Ela havia visto algo que os outros ainda nêo tinham percebido.
 
 [Maya]: É um quebra-cabeça! Olha — a costa leste da América do Sul encaixa com a costa oeste da África. Perfeitamente.
 
@@ -276,33 +276,33 @@
 
 [Maya]: E ele estava certo?
 
-[Professor]: Completamente. A prova veio nas décadas seguintes — fósseis idênticos em continentes diferentes, rochas com a mesma composição em lados opostos do Atlântico, o mapeamento do fundo oceânico mostrando que novas rochas surgem nas dorsais médias e se afastam de lá.
+[Professor]: Completamente. A prova veio nas décadas seguintes — fósseis idênticos em continentes diferentes, rochas com a mesma composiçêo em lados opostos do Atlântico, o mapeamento do fundo oceânico mostrando que novas rochas surgem nas dorsais médias e se afastam de lá.
 
 [Lumi]: Wegener morreu vendo a teoria dele ser rejeitada?
 
-[Professor]: Morreu em uma expedição na Groenlândia em 1930. A teoria da tectônica de placas só foi aceita nos anos 1960, décadas depois. É um dos maiores exemplos de como a ciência leva tempo para mudar de ideia — e como ideias corretas sobrevivem à resistência.
+[Professor]: Morreu em uma expediçêo na Groenlândia em 1930. A teoria da tectônica de placas só foi aceita nos anos 1960, décadas depois. É um dos maiores exemplos de como a ciência leva tempo para mudar de ideia — e como ideias corretas sobrevivem à resistência.
 
-[Caio]: Ele tinha razão. Mas não viveu para ver isso confirmado.
+[Caio]: Ele tinha razêo. Mas nêo viveu para ver isso confirmado.
 
 [Professor]: É o risco de estar à frente do tempo. Mas a ideia continua.
 
 <!-- scene: Cena_15_Caio_Localiza_Onde_Estamos_no.png -->
 
-> Caio pediu a PIX-Z para mostrar a localização exata de onde estavam no planeta.
+> Caio pediu a PIX-Z para mostrar a localizaçêo exata de onde estavam no planeta.
 
 [Caio]: Mostre onde estamos agora. No mapa completo.
 
-[PIX-Z]: Localização atual: América do Sul, hemisfério sul, placa Sul-Americana. Esta placa move-se em direção ao oeste a aproximadamente 2 centímetros por ano. A costa oeste do continente colide com a Placa de Nazca, criando a Cordilheira dos Andes.
+[PIX-Z]: Localizaçêo atual: América do Sul, hemisfério sul, placa Sul-Americana. Esta placa move-se em direçêo ao oeste a aproximadamente 2 centímetros por ano. A costa oeste do continente colide com a Placa de Nazca, criando a Cordilheira dos Andes.
 
 [Caio]: Estamos em cima de uma placa em movimento.
 
-[PIX-Z]: Sempre estiveram. Todos os humanos em toda a história estiveram em cima de placas em movimento. Cada civilização, cada construção, cada fronteira foi desenhada sobre um planeta que se reconfigura continuamente.
+[PIX-Z]: Sempre estiveram. Todos os humanos em toda a história estiveram em cima de placas em movimento. Cada civilizaçêo, cada construçêo, cada fronteira foi desenhada sobre um planeta que se reconfigura continuamente.
 
-[Maya]: As fronteiras políticas são temporárias mesmo em escala geológica.
+[Maya]: As fronteiras políticas sêo temporárias mesmo em escala geológica.
 
 [Valen]: Tudo é temporário em escala geológica.
 
-[Professor]: Tudo. As montanhas serão erodidas. Os oceanos vão se fechar e abrir em novos formatos. Os continentes vão se reunir. A única constante é o movimento.
+[Professor]: Tudo. As montanhas serêo erodidas. Os oceanos vêo se fechar e abrir em novos formatos. Os continentes vêo se reunir. A única constante é o movimento.
 
 [Lumi]: E os humanos nesse processo?
 
@@ -310,23 +310,23 @@
 
 <!-- scene: Cena_16_As_Maiores_Montanhas_do_Planet.png -->
 
-> A projeção mostrou as maiores montanhas de cada continente. Uma por uma, com suas altitudes comparadas.
+> A projeçêo mostrou as maiores montanhas de cada continente. Uma por uma, com suas altitudes comparadas.
 
-[Professor]: O Everest é o pico mais alto acima do nível do mar — 8.849 metros. Mas não é o ponto mais distante do centro da Terra. Esse título é do Monte Chimborazo, no Equador.
+[Professor]: O Everest é o pico mais alto acima do nível do mar — 8.849 metros. Mas nêo é o ponto mais distante do centro da Terra. Esse título é do Monte Chimborazo, no Equador.
 
 [Valen]: Por quê?
 
-[Professor]: Porque a Terra não é uma esfera perfeita. É achatada nos polos e mais larga no equador. O Chimborazo está perto do equador, então mesmo sendo menor que o Everest em altitude absoluta, seu cume está 6.384 quilômetros do centro da Terra — 2 quilômetros mais longe que o cume do Everest.
+[Professor]: Porque a Terra nêo é uma esfera perfeita. É achatada nos polos e mais larga no equador. O Chimborazo está perto do equador, entêo mesmo sendo menor que o Everest em altitude absoluta, seu cume está 6.384 quilômetros do centro da Terra — 2 quilômetros mais longe que o cume do Everest.
 
 [Caio]: Definir "o mais alto" depende do ponto de referência.
 
-[Professor]: Sempre depende. O Everest em relação ao nível do mar. O Chimborazo em relação ao centro do planeta. O Mauna Kea, no Havaí, tem 10.210 metros se medido desde a base no fundo do oceano. Maior do que o Everest.
+[Professor]: Sempre depende. O Everest em relaçêo ao nível do mar. O Chimborazo em relaçêo ao centro do planeta. O Mauna Kea, no Havaí, tem 10.210 metros se medido desde a base no fundo do oceano. Maior do que o Everest.
 
-[PIX-Z]: As montanhas mais antigas da Terra têm cerca de 3,6 bilhões de anos. As mais novas — como o Himalaia — têm menos de 50 milhões. Em escala de tempo humana, parecem eternas. Em escala geológica, são recentes.
+[PIX-Z]: As montanhas mais antigas da Terra têm cerca de 3,6 bilhões de anos. As mais novas — como o Himalaia — têm menos de 50 milhões. Em escala de tempo humana, parecem eternas. Em escala geológica, sêo recentes.
 
 [Maya]: E um dia o Everest vai sumir?
 
-[Professor]: Um dia o Everest vai ser erodido, submerso ou incorporado a uma nova formação geológica. As montanhas são processos, não estruturas permanentes.
+[Professor]: Um dia o Everest vai ser erodido, submerso ou incorporado a uma nova formaçêo geológica. As montanhas sêo processos, nêo estruturas permanentes.
 
 <!-- scene: Cena_17_Valen_Reage_Impressionada_Pel.png -->
 
@@ -334,29 +334,29 @@
 
 [Valen]: Eu sempre pensei que o planeta era um cenário. O lugar onde as coisas acontecem. Mas ele é uma coisa que acontece.
 
-[Professor]: Essa é a virada. O planeta não é um palco estático. É um sistema em constante transformação — geológica, climática, biológica. Tudo o que consideramos "o mundo" é uma fotografia de um instante.
+[Professor]: Essa é a virada. O planeta nêo é um palco estático. É um sistema em constante transformaçêo — geológica, climática, biológica. Tudo o que consideramos "o mundo" é uma fotografia de um instante.
 
 [Valen]: E a gente vive nesse instante sem perceber o movimento.
 
-[Lumi]: Como o peixe que não percebe a água.
+[Lumi]: Como o peixe que nêo percebe a água.
 
-[Professor]: Exatamente. A maioria das mudanças é lenta demais para perceber em uma vida humana. Mas a ciência acumulou registros que permitem ver o movimento que nossos olhos não alcançam.
+[Professor]: Exatamente. A maioria das mudanças é lenta demais para perceber em uma vida humana. Mas a ciência acumulou registros que permitem ver o movimento que nossos olhos nêo alcançam.
 
 [Caio]: É como ver em câmera lenta depois que o evento acabou.
 
-[Professor]: Ou prever o que vem a seguir. A geologia, a climatologia, a astrofísica — são ferramentas para ver além da escala de tempo humana. Para agir com mais informação do que nossa experiência direta permite.
+[Professor]: Ou prever o que vem a seguir. A geologia, a climatologia, a astrofísica — sêo ferramentas para ver além da escala de tempo humana. Para agir com mais informaçêo do que nossa experiência direta permite.
 
-[Maya]: Para não ser o peixe que não percebe a água.
+[Maya]: Para nêo ser o peixe que nêo percebe a água.
 
 [Professor]: Para ser algo diferente — uma espécie que entende o sistema em que vive e pode, conscientemente, decidir o que fazer com isso.
 
 <!-- scene: Cena_18_Os_Polos_Artico_e_Antartida.png -->
 
-> Gelo. Imenso, branco, e silencioso. Os dois polos do planeta apareceram na projeção lado a lado.
+> Gelo. Imenso, branco, e silencioso. Os dois polos do planeta apareceram na projeçêo lado a lado.
 
 [Professor]: O Ártico e a Antártida. Os dois extremos do planeta. Superficialmente parecidos — frios, cobertos de gelo, remotos. Fundamentalmente diferentes.
 
-[PIX-Z]: Ártico: oceano coberto de gelo flutuante. Profundidade média do gelo marinho: 2 metros no verão, até 3,5 metros no inverno. Antártida: continente coberto por uma calota de gelo com até 4.776 metros de espessura. O maior reservatório de água doce do planeta — 70% do total mundial.
+[PIX-Z]: Ártico: oceano coberto de gelo flutuante. Profundidade média do gelo marinho: 2 metros no verêo, até 3,5 metros no inverno. Antártida: continente coberto por uma calota de gelo com até 4.776 metros de espessura. O maior reservatório de água doce do planeta — 70% do total mundial.
 
 [Lumi]: 70% da água doce está na Antártida?
 
@@ -364,62 +364,62 @@
 
 [Valen]: 57 metros. A maioria das cidades costeiras do mundo.
 
-[Professor]: Incluindo a maior parte das regiões habitadas mais densamente. O gelo antártico não é apenas paisagem — é uma estrutura de estabilidade do sistema climático global.
+[Professor]: Incluindo a maior parte das regiões habitadas mais densamente. O gelo antártico nêo é apenas paisagem — é uma estrutura de estabilidade do sistema climático global.
 
 [Caio]: E está diminuindo?
 
-[Professor]: Em aceleração. Nos últimos 30 anos, a Antártida perdeu mais de 3 trilhões de toneladas de gelo. A taxa está aumentando.
+[Professor]: Em aceleraçêo. Nos últimos 30 anos, a Antártida perdeu mais de 3 trilhões de toneladas de gelo. A taxa está aumentando.
 
 [Maya]: O que acontece se perder mais?
 
-[Professor]: O nível do mar sobe, os padrões climáticos se alteram, espécies inteiras que dependem do gelo desaparecem. É uma reação em cadeia. Por isso o monitoramento constante importa.
+[Professor]: O nível do mar sobe, os padrões climáticos se alteram, espécies inteiras que dependem do gelo desaparecem. É uma reaçêo em cadeia. Por isso o monitoramento constante importa.
 
 <!-- scene: Cena_19_O_Giro_da_Terra_Dia_Noite_e_.png -->
 
-> A Terra girou na projeção. Devagar o suficiente para ver o terminator — a linha entre o dia e a noite — varrendo o planeta continuamente.
+> A Terra girou na projeçêo. Devagar o suficiente para ver o terminator — a linha entre o dia e a noite — varrendo o planeta continuamente.
 
-[Professor]: A Terra gira uma volta completa em 23 horas, 56 minutos e 4 segundos. Não 24 horas exatas — esse é o dia solar, que compensa o movimento de translação ao redor do Sol.
+[Professor]: A Terra gira uma volta completa em 23 horas, 56 minutos e 4 segundos. Nêo 24 horas exatas — esse é o dia solar, que compensa o movimento de translaçêo ao redor do Sol.
 
-[Caio]: O dia não tem 24 horas?
+[Caio]: O dia nêo tem 24 horas?
 
-[Professor]: O dia sideral — em relação às estrelas — tem 23h56min. O dia solar tem 24 horas porque enquanto a Terra gira, também se move em volta do Sol, então precisa girar um pouco mais para o Sol voltar ao mesmo ponto no céu.
+[Professor]: O dia sideral — em relaçêo às estrelas — tem 23h56min. O dia solar tem 24 horas porque enquanto a Terra gira, também se move em volta do Sol, entêo precisa girar um pouco mais para o Sol voltar ao mesmo ponto no céu.
 
-[PIX-Z]: A rotação da Terra está diminuindo lentamente devido ao atrito das marés lunares — aproximadamente 1,4 milissegundos por século. Há 620 milhões de anos, um dia na Terra tinha cerca de 22 horas.
+[PIX-Z]: A rotaçêo da Terra está diminuindo lentamente devido ao atrito das marés lunares — aproximadamente 1,4 milissegundos por século. Há 620 milhões de anos, um dia na Terra tinha cerca de 22 horas.
 
 [Lumi]: O dia está ficando mais longo?
 
 [PIX-Z]: Em escala de tempo geológico, sim. Muito lentamente. Em escala de tempo humana, imperceptível.
 
-[Maya]: E as estações? Também são por causa da rotação?
+[Maya]: E as estações? Também sêo por causa da rotaçêo?
 
-[Professor]: Não — as estações são por causa da inclinação do eixo. A Terra está inclinada 23,5 graus em relação ao plano de órbita. No verão do hemisfério norte, o eixo aponta para o Sol — mais horas de luz, mais calor. No inverno, aponta para longe.
+[Professor]: Nêo — as estações sêo por causa da inclinaçêo do eixo. A Terra está inclinada 23,5 graus em relaçêo ao plano de órbita. No verêo do hemisfério norte, o eixo aponta para o Sol — mais horas de luz, mais calor. No inverno, aponta para longe.
 
-[Valen]: E se não tivesse inclinação?
+[Valen]: E se nêo tivesse inclinaçêo?
 
-[Professor]: Temperatura constante o ano inteiro em cada latitude. Sem estações. A maioria dos ecossistemas que conhecemos não existiria. A inclinação é consequência da colisão que formou a Lua — e ela mudou tudo.
+[Professor]: Temperatura constante o ano inteiro em cada latitude. Sem estações. A maioria dos ecossistemas que conhecemos nêo existiria. A inclinaçêo é consequência da colisêo que formou a Lua — e ela mudou tudo.
 
 <!-- scene: Cena_20_Conclusao_A_Terra_E_Incrivel_.png -->
 
-> A projeção mostrou a Terra inteira de novo. Lentamente, começou a recuar — ficando menor, como a visão de quem está saindo do planeta em uma nave.
+> A projeçêo mostrou a Terra inteira de novo. Lentamente, começou a recuar — ficando menor, como a visêo de quem está saindo do planeta em uma nave.
 
-[Professor]: A Terra é incrível. Não como adjetivo vago — como fato verificável. Um planeta com quatro bilhões de anos de história, camadas em movimento, oceanos que cobrem três quartos da superfície, vida em cada ambiente que explorou, polos que regulam o clima global, e uma história de transformação contínua que continua agora, enquanto estamos aqui.
+[Professor]: A Terra é incrível. Nêo como adjetivo vago — como fato verificável. Um planeta com quatro bilhões de anos de história, camadas em movimento, oceanos que cobrem três quartos da superfície, vida em cada ambiente que explorou, polos que regulam o clima global, e uma história de transformaçêo contínua que continua agora, enquanto estamos aqui.
 
-[Lumi]: E nós somos parte dessa transformação.
+[Lumi]: E nós somos parte dessa transformaçêo.
 
 [Professor]: Somos a parte que tem consciência dela. A única, por enquanto.
 
 [Maya]: Isso parece uma responsabilidade enorme.
 
-[Professor]: É. Mas também é uma posição única. Nenhuma outra espécie na história do planeta teve ferramentas para entender o sistema completo e tomar decisões baseadas nesse entendimento.
+[Professor]: É. Mas também é uma posiçêo única. Nenhuma outra espécie na história do planeta teve ferramentas para entender o sistema completo e tomar decisões baseadas nesse entendimento.
 
-[Caio]: Entender não garante que vamos fazer certo.
+[Caio]: Entender nêo garante que vamos fazer certo.
 
-[Professor]: Não garante. Mas é o pré-requisito. Você não resolve o que não entende.
+[Professor]: Nêo garante. Mas é o pré-requisito. Você nêo resolve o que nêo entende.
 
-[Valen]: Então a ciência é o começo, não a solução.
+[Valen]: Entêo a ciência é o começo, nêo a soluçêo.
 
 [Professor]: Exatamente. A ciência entrega o mapa. O que fazemos com ele é outra conversa — e é uma conversa que pertence a vocês muito mais do que a mim.
 
-[PIX-Z]: Dado final: a Terra completou mais uma rotação desde que entramos nessa sala. O planeta continua. Sempre continuou.
+[PIX-Z]: Dado final: a Terra completou mais uma rotaçêo desde que entramos nessa sala. O planeta continua. Sempre continuou.
 
-> A projeção apagou. As luzes voltaram. A sala era só uma sala de novo — cadeiras, janelas, chão de concreto. Mas não era mais a mesma sala. Era a crosta de um planeta em movimento, na borda de um sistema solar, na periferia de uma galáxia, em algum canto de um universo que a turma agora entendia um pouco melhor.
+> A projeçêo apagou. As luzes voltaram. A sala era só uma sala de novo — cadeiras, janelas, chêo de concreto. Mas nêo era mais a mesma sala. Era a crosta de um planeta em movimento, na borda de um sistema solar, na periferia de uma galáxia, em algum canto de um universo que a turma agora entendia um pouco melhor.

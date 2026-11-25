@@ -153,7 +153,7 @@ export function StoryEditor({ initialStory, userId: _userId }: StoryEditorProps)
     try {
       const content = storyToMarkdown(story);
       const token = await getToken();
-      if (!token) throw new Error('Não autenticado');
+      if (!token) throw new Error('Nêo autenticado');
       const res = await fetch(`/api/story/${story.bookId}/publish`, {
         method: 'POST',
         headers: {

@@ -16,21 +16,21 @@
 
 > Lumi Byte. Observadora. Empática. Sempre conectando pessoas sem perceber que faz isso.
 
-[Lumi]: Eu estava procurando a sala B3 há vinte minutos. O mapa do tablet não atualiza em tempo real.
+[Lumi]: Eu estava procurando a sala B3 há vinte minutos. O mapa do tablet nêo atualiza em tempo real.
 
 [Valen]: Eu conheço o caminho. Vem.
 
 <!-- scene: vana.png -->
 
-> Valen. Determinada. Confiante por fora, sempre calculando por dentro. Não costuma oferecer ajuda — mas quando oferece, é de verdade.
+> Valen. Determinada. Confiante por fora, sempre calculando por dentro. Nêo costuma oferecer ajuda — mas quando oferece, é de verdade.
 
-[Valen]: Eu sou Valen. E você estava indo na direção errada, só pra constar.
+[Valen]: Eu sou Valen. E você estava indo na direçêo errada, só pra constar.
 
 [Lumi]: Obrigada. Eu sou Lumi.
 
 <!-- scene: cena02.png -->
 
-> A sala estava quase cheia. Lumi hesitou na porta. Havia apenas um lugar vago — ao lado de Valen, que não olhou para cima.
+> A sala estava quase cheia. Lumi hesitou na porta. Havia apenas um lugar vago — ao lado de Valen, que nêo olhou para cima.
 
 [Lumi]: Você já entendeu essa parte da aula?
 
@@ -38,11 +38,11 @@
 
 [Lumi]: Ou mais complicado.
 
-[Valen]: Espero que não.
+[Valen]: Espero que nêo.
 
 <!-- scene: cena03.png -->
 
-> Na fila do refeitório, uma figura estava completamente no próprio mundo — tablet na mão, traços rápidos, alheia ao movimento ao redor.
+> Na fila do refeitório, uma figura estava completamente no próprio mundo — tablet na mêo, traços rápidos, alheia ao movimento ao redor.
 
 [Lumi]: Você desenhou isso agora? Na fila?
 
@@ -50,7 +50,7 @@
 
 [Valen]: É um cachorro-robô?
 
-[Maya]: É. Ele parece abandonado... mas não devia estar.
+[Maya]: É. Ele parece abandonado... mas nêo devia estar.
 
 <!-- scene: maya.png -->
 
@@ -58,7 +58,7 @@
 
 [Maya]: Eu sou Maya. Desculpa, eu estava no meu mundo.
 
-[Lumi]: Não precisa pedir desculpa. O desenho é incrível.
+[Lumi]: Nêo precisa pedir desculpa. O desenho é incrível.
 
 <!-- scene: cena04.png -->
 
@@ -66,7 +66,7 @@
 
 [Caio]: Está ocupado?
 
-[Maya]: Não.
+[Maya]: Nêo.
 
 [Lumi]: Você já mexeu nesse sistema antes? A interface parece complicada.
 
@@ -76,7 +76,7 @@
 
 > Caio Luz. Analítico. Leal. Vê padrões onde outros veem caos. Fala pouco — mas quando fala, vale a pena ouvir.
 
-[Caio]: Eu sou Caio. Desculpa não ter dito antes. Não sou muito de apresentações.
+[Caio]: Eu sou Caio. Desculpa nêo ter dito antes. Nêo sou muito de apresentações.
 
 [Valen]: Nem eu. Mas pelo menos você disse.
 
@@ -114,17 +114,17 @@
 
 [Lumi]: Maya. Isso é incrível. Parece real.
 
-[Valen]: É que ela para de pensar e só deixa a mão ir.
+[Valen]: É que ela para de pensar e só deixa a mêo ir.
 
 [Maya]: Você me disse isso na aula. Eu tentei.
 
 <!-- scene: cena08.png -->
 
-> O projeto precisava ser entregue em duas semanas. A questão era: como fazer junto?
+> O projeto precisava ser entregue em duas semanas. A questêo era: como fazer junto?
 
 [Caio]: Se a gente dividir as partes por competência, termina em dois dias.
 
-[Lumi]: Ou podemos fazer junto e aprender as partes que cada um não domina ainda.
+[Lumi]: Ou podemos fazer junto e aprender as partes que cada um nêo domina ainda.
 
 [Valen]: Junto. Definitivamente junto.
 
@@ -140,7 +140,7 @@
 
 [Valen]: Bagunça organizada. É diferente de bagunça comum.
 
-[Caio]: Mesma hora amanhã?
+[Caio]: Mesma hora amanhê?
 
 <!-- scene: cena10.png -->
 
@@ -148,10 +148,10 @@
 
 [Lumi]: A gente nunca se apresentou direito hoje.
 
-[Valen]: A gente não precisou.
+[Valen]: A gente nêo precisou.
 
 [Maya]: Verdade. Mas eu sou Maya. Só pra constar.
 
-[Caio]: Caio. E amanhã é o segundo dia.
+[Caio]: Caio. E amanhê é o segundo dia.
 
-> Não foi combinado. Não foi forçado. Foi o começo de tudo.
+> Nêo foi combinado. Nêo foi forçado. Foi o começo de tudo.

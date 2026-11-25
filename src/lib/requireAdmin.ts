@@ -26,7 +26,7 @@ export async function requireRole(
 ): Promise<AuthResult | NextResponse> {
   const authHeader = request.headers.get('Authorization');
   if (!authHeader?.startsWith('Bearer ')) {
-    return NextResponse.json({ error: 'Não autenticado' }, { status: 401 });
+    return NextResponse.json({ error: 'Nêo autenticado' }, { status: 401 });
   }
 
   const token = authHeader.slice(7);

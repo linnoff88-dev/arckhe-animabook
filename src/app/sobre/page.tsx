@@ -45,10 +45,10 @@ const steps = [
     border: 'rgba(74,222,128,0.35)',
     bg: 'rgba(74,222,128,0.07)',
     items: [
-      'Clique em "Publicar" para criar uma versão pública do seu rascunho',
-      'Sua publicação aparece na barra lateral da página do livro para todos verem',
+      'Clique em "Publicar" para criar uma versêo pública do seu rascunho',
+      'Sua publicaçêo aparece na barra lateral da página do livro para todos verem',
       'Você pode ter múltiplas publicações do mesmo livro',
-      'Cada publicação é independente — edite o rascunho sem afetar versões anteriores',
+      'Cada publicaçêo é independente — edite o rascunho sem afetar versões anteriores',
     ],
   },
   {
@@ -59,10 +59,10 @@ const steps = [
     border: 'rgba(244,63,94,0.35)',
     bg: 'rgba(244,63,94,0.07)',
     items: [
-      'Curta publicações de outros usuários com o botão ❤️',
+      'Curta publicações de outros usuários com o botêo ❤️',
       'Deixe comentários nas histórias que você gostou',
       'Exclua seus próprios comentários a qualquer hora',
-      'Visualize quantos likes e comentários cada publicação tem',
+      'Visualize quantos likes e comentários cada publicaçêo tem',
     ],
   },
 ];
@@ -89,7 +89,7 @@ const formats = [
   {
     label: 'Diálogo',
     example: '[Herói@esq]: Vamos lá!',
-    desc: 'Balão de fala com personagem e posição',
+    desc: 'Balêo de fala com personagem e posiçêo',
     color: '#4ade80',
   },
 ];
@@ -266,7 +266,7 @@ export default function SobrePage() {
             Formato das histórias
           </h2>
           <p style={{ fontFamily: 'var(--font-nunito)', fontSize: '13px', color: 'rgba(245,240,232,0.5)', marginBottom: '20px' }}>
-            As histórias são escritas em Markdown com sintaxe especial. O editor visual gera esse formato automaticamente.
+            As histórias sêo escritas em Markdown com sintaxe especial. O editor visual gera esse formato automaticamente.
           </p>
 
           <div style={{ display: 'flex', flexDirection: 'column', gap: '10px', marginBottom: '20px' }}>
@@ -390,19 +390,19 @@ export default function SobrePage() {
           {[
             {
               q: 'Preciso de conta para ler?',
-              a: 'Não. Todos os livros e publicações são públicos e podem ser lidos sem login.',
+              a: 'Nêo. Todos os livros e publicações sêo públicos e podem ser lidos sem login.',
             },
             {
               q: 'Posso editar a história principal do livro?',
-              a: 'Não diretamente. Cada usuário edita seu próprio rascunho privado. Ao publicar, você cria uma versão pública autoral — o livro original não é alterado.',
+              a: 'Nêo diretamente. Cada usuário edita seu próprio rascunho privado. Ao publicar, você cria uma versêo pública autoral — o livro original nêo é alterado.',
             },
             {
-              q: 'As imagens são minhas?',
-              a: 'As imagens dos livros pertencem ao Animabook. Você contribui com os textos, narração e diálogos.',
+              q: 'As imagens sêo minhas?',
+              a: 'As imagens dos livros pertencem ao Animabook. Você contribui com os textos, narraçêo e diálogos.',
             },
             {
-              q: 'Posso apagar uma publicação?',
-              a: 'Ainda não há essa funcionalidade na interface, mas está planejada.',
+              q: 'Posso apagar uma publicaçêo?',
+              a: 'Ainda nêo há essa funcionalidade na interface, mas está planejada.',
             },
             {
               q: 'O editor funciona no celular?',
@@ -476,7 +476,7 @@ export default function SobrePage() {
               margin: '0 0 24px',
             }}
           >
-            Crie sua conta e escreva sua versão da história.
+            Crie sua conta e escreva sua versêo da história.
           </p>
           <div style={{ display: 'flex', gap: '12px', justifyContent: 'center', flexWrap: 'wrap' }}>
             <Link

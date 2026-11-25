@@ -57,7 +57,7 @@ export default async function BookPage({ params }: Props) {
     });
   }
 
-  // Sessão
+  // Sessêo
   const supabase = await createSupabaseServerClient();
   const { data: { user } } = await supabase.auth.getUser();
 
@@ -83,7 +83,7 @@ export default async function BookPage({ params }: Props) {
     pubUserIds.length > 0
       ? admin.from('profiles').select('id, username').in('id', pubUserIds)
       : Promise.resolve({ data: [] as { id: string; username: string }[] }),
-    // Fallback: busca username do user_metadata quando profile não existe
+    // Fallback: busca username do user_metadata quando profile nêo existe
     pubUserIds.length > 0
       ? admin.auth.admin.listUsers({ perPage: 1000 })
       : Promise.resolve({ data: { users: [] } }),
@@ -96,7 +96,7 @@ export default async function BookPage({ params }: Props) {
     (profilesResult.data ?? []).map(p => [p.id, p.username])
   );
 
-  // Preenche com user_metadata para quem não tem profile
+  // Preenche com user_metadata para quem nêo tem profile
   const authUsers = (authUsersResult as { data: { users: { id: string; user_metadata?: { username?: string } }[] } }).data?.users ?? [];
   for (const au of authUsers) {
     if (!profileMap[au.id] && au.user_metadata?.username) {

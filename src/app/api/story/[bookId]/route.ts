@@ -47,7 +47,7 @@ export async function POST(req: NextRequest, { params }: RouteParams) {
   const user = await getUserFromRequest(req);
 
   if (!user) {
-    return NextResponse.json({ error: 'Não autenticado' }, { status: 401 });
+    return NextResponse.json({ error: 'Nêo autenticado' }, { status: 401 });
   }
 
   const { content } = await req.json();
@@ -74,7 +74,7 @@ export async function DELETE(req: NextRequest, { params }: RouteParams) {
   const user = await getUserFromRequest(req);
 
   if (!user) {
-    return NextResponse.json({ error: 'Não autenticado' }, { status: 401 });
+    return NextResponse.json({ error: 'Nêo autenticado' }, { status: 401 });
   }
 
   await admin

@@ -1,25 +1,25 @@
 # Animabook
 
-[![Animabook â€” estante de livros](doc/preview.jpg)](https://animabook.vercel.app)
+[![Animabook ê¢â¬â estante de livros](doc/preview.jpg)](https://animabook.vercel.app)
 
 **[animabook.vercel.app](https://animabook.vercel.app)**
 
-Plataforma web mobile-first para criar, publicar e interagir com histÃ³rias em quadrinhos animadas. Qualquer pessoa lÃª os livros; usuÃ¡rios logados escrevem seu prÃ³prio rascunho e publicam versÃµes autorais que outros podem curtir e comentar.
+Plataforma web mobile-first para criar, publicar e interagir com histêÂ³rias em quadrinhos animadas. Qualquer pessoa lêÂª os livros; usuêÂ¡rios logados escrevem seu prêÂ³prio rascunho e publicam versêÂµes autorais que outros podem curtir e comentar.
 
 ---
 
 ## Funcionalidades
 
-- **Reader animado** â€” balÃµes de fala com spring animation, narrador com efeito typewriter, transiÃ§Ãµes entre cenas, swipe para navegar
-- **Sidebar de publicaÃ§Ãµes** â€” painel lateral na pÃ¡gina do livro lista todas as versÃµes publicadas; ao selecionar, a histÃ³ria e o painel social carregam inline
-- **Editor por usuÃ¡rio** â€” cada usuÃ¡rio tem seu prÃ³prio rascunho por livro; salvo no Supabase com Ctrl+S
-- **BalÃµes arrastÃ¡veis** â€” posicione cada balÃ£o livremente sobre a imagem
-- **PublicaÃ§Ãµes** â€” botÃ£o "Publicar ðŸš€" cria versÃ£o pÃºblica; mÃºltiplas publicaÃ§Ãµes por livro, uma por autor
-- **Likes e comentÃ¡rios** â€” interaÃ§Ãµes sociais nas publicaÃ§Ãµes (requer login)
-- **Auth completo** â€” login/registro com email + senha via Supabase Auth
-- **Contador de acessos** â€” home exibe total de pageviews, visitantes logados e anÃ´nimos (via tabela `visits`)
-- **Aspect ratio dinÃ¢mico** â€” suporte a imagens landscape, portrait e square sem distorÃ§Ã£o
-- **Mobile-first** â€” layout responsivo, swipe para navegar entre cenas
+- **Reader animado** ê¢â¬â balêÂµes de fala com spring animation, narrador com efeito typewriter, transiêÂ§êÂµes entre cenas, swipe para navegar
+- **Sidebar de publicaêÂ§êÂµes** ê¢â¬â painel lateral na pêÂ¡gina do livro lista todas as versêÂµes publicadas; ao selecionar, a histêÂ³ria e o painel social carregam inline
+- **Editor por usuêÂ¡rio** ê¢â¬â cada usuêÂ¡rio tem seu prêÂ³prio rascunho por livro; salvo no Supabase com Ctrl+S
+- **BalêÂµes arrastêÂ¡veis** ê¢â¬â posicione cada balêÂ£o livremente sobre a imagem
+- **PublicaêÂ§êÂµes** ê¢â¬â botêÂ£o "Publicar ê°Å¸Å¡â¬" cria versêÂ£o pêÂºblica; mêÂºltiplas publicaêÂ§êÂµes por livro, uma por autor
+- **Likes e comentêÂ¡rios** ê¢â¬â interaêÂ§êÂµes sociais nas publicaêÂ§êÂµes (requer login)
+- **Auth completo** ê¢â¬â login/registro com email + senha via Supabase Auth
+- **Contador de acessos** ê¢â¬â home exibe total de pageviews, visitantes logados e anêÂ´nimos (via tabela `visits`)
+- **Aspect ratio dinêÂ¢mico** ê¢â¬â suporte a imagens landscape, portrait e square sem distorêÂ§êÂ£o
+- **Mobile-first** ê¢â¬â layout responsivo, swipe para navegar entre cenas
 
 ---
 
@@ -29,10 +29,10 @@ Plataforma web mobile-first para criar, publicar e interagir com histÃ³rias em
 |---|---|
 | Next.js 16 (App Router) | Framework, SSR, API routes, Proxy (middleware) |
 | React 19 + TypeScript | UI |
-| Framer Motion 12 | AnimaÃ§Ãµes, drag & drop |
-| Tailwind CSS 4 | EstilizaÃ§Ã£o (sem config file) |
+| Framer Motion 12 | AnimaêÂ§êÂµes, drag & drop |
+| Tailwind CSS 4 | EstilizaêÂ§êÂ£o (sem config file) |
 | Supabase | Auth, banco de dados (drafts, publications, likes, comments) |
-| `@supabase/ssr` | SessÃ£o em cookies para SSR |
+| `@supabase/ssr` | SessêÂ£o em cookies para SSR |
 | Google Fonts | Fredoka, Bangers, Nunito |
 
 ---
@@ -41,45 +41,45 @@ Plataforma web mobile-first para criar, publicar e interagir com histÃ³rias em
 
 ```
 animabook/
-â”œâ”€â”€ books/                         # Imagens PNG + story.md por livro
-â”‚   â”œâ”€â”€ livro1/
-â”‚   â”‚   â”œâ”€â”€ Cena_01_...png
-â”‚   â”‚   â””â”€â”€ story.md
-â”‚   â””â”€â”€ livro2/...
-â”‚
-â”œâ”€â”€ scripts/
-â”‚   â””â”€â”€ copyBooks.mjs              # Copia books/ â†’ public/books/ antes do build
-â”‚
-â””â”€â”€ src/
-    â”œâ”€â”€ proxy.ts                   # Protege /editor/* (redireciona para /login)
-    â”œâ”€â”€ app/
-    â”‚   â”œâ”€â”€ page.tsx               # Home: estante de livros
-    â”‚   â”œâ”€â”€ sobre/                 # PÃ¡gina "Como funciona"
-    â”‚   â”œâ”€â”€ login/                 # Login / registro
-    â”‚   â”œâ”€â”€ book/[bookId]/         # Reader + lista de publicaÃ§Ãµes
-    â”‚   â”œâ”€â”€ editor/[bookId]/       # Editor (requer login)
-    â”‚   â”œâ”€â”€ publication/[id]/      # Visualiza publicaÃ§Ã£o + likes + comentÃ¡rios
-    â”‚   â”œâ”€â”€ api/story/[bookId]/
-    â”‚   â”‚   â”œâ”€â”€ route.ts           # GET/POST rascunho
-    â”‚   â”‚   â””â”€â”€ publish/route.ts   # POST cria publicaÃ§Ã£o
-    â”‚   â””â”€â”€ api/visit/
-    â”‚       â””â”€â”€ route.ts           # POST registra visita (session_id + user_id opcional)
-    â”œâ”€â”€ components/
-    â”‚   â”œâ”€â”€ reader/                # BookReader, SceneView, SpeechBubble, NarratorBox
-    â”‚   â”œâ”€â”€ editor/                # StoryEditor, SceneEditorPanel, EditorToolbar
-    â”‚   â”œâ”€â”€ auth/                  # AuthForm
-    â”‚   â””â”€â”€ ui/                   # BookShelf, ProgressDots, LikeButton, CommentSection, PublicationList
-    â”œâ”€â”€ lib/
-    â”‚   â”œâ”€â”€ types.ts               # Scene, StoryData, Publication, Comment, UserProfile
-    â”‚   â”œâ”€â”€ parseStory.ts
-    â”‚   â”œâ”€â”€ getBooks.ts
-    â”‚   â”œâ”€â”€ supabase-browser.ts    # Cliente browser (anon key)
-    â”‚   â”œâ”€â”€ supabase-server.ts     # Cliente server (cookies)
-    â”‚   â””â”€â”€ supabase.ts            # Cliente admin (service role â€” server only)
-    â””â”€â”€ hooks/
-        â”œâ”€â”€ useTypewriter.ts
-        â”œâ”€â”€ useSwipe.ts
-        â””â”€â”€ useSceneState.ts
+ê¢âÅê¢ââ¬ê¢ââ¬ books/                         # Imagens PNG + story.md por livro
+ê¢ââ   ê¢âÅê¢ââ¬ê¢ââ¬ livro1/
+ê¢ââ   ê¢ââ   ê¢âÅê¢ââ¬ê¢ââ¬ Cena_01_...png
+ê¢ââ   ê¢ââ   ê¢ââê¢ââ¬ê¢ââ¬ story.md
+ê¢ââ   ê¢ââê¢ââ¬ê¢ââ¬ livro2/...
+ê¢ââ
+ê¢âÅê¢ââ¬ê¢ââ¬ scripts/
+ê¢ââ   ê¢ââê¢ââ¬ê¢ââ¬ copyBooks.mjs              # Copia books/ ê¢â â public/books/ antes do build
+ê¢ââ
+ê¢ââê¢ââ¬ê¢ââ¬ src/
+    ê¢âÅê¢ââ¬ê¢ââ¬ proxy.ts                   # Protege /editor/* (redireciona para /login)
+    ê¢âÅê¢ââ¬ê¢ââ¬ app/
+    ê¢ââ   ê¢âÅê¢ââ¬ê¢ââ¬ page.tsx               # Home: estante de livros
+    ê¢ââ   ê¢âÅê¢ââ¬ê¢ââ¬ sobre/                 # PêÂ¡gina "Como funciona"
+    ê¢ââ   ê¢âÅê¢ââ¬ê¢ââ¬ login/                 # Login / registro
+    ê¢ââ   ê¢âÅê¢ââ¬ê¢ââ¬ book/[bookId]/         # Reader + lista de publicaêÂ§êÂµes
+    ê¢ââ   ê¢âÅê¢ââ¬ê¢ââ¬ editor/[bookId]/       # Editor (requer login)
+    ê¢ââ   ê¢âÅê¢ââ¬ê¢ââ¬ publication/[id]/      # Visualiza publicaêÂ§êÂ£o + likes + comentêÂ¡rios
+    ê¢ââ   ê¢âÅê¢ââ¬ê¢ââ¬ api/story/[bookId]/
+    ê¢ââ   ê¢ââ   ê¢âÅê¢ââ¬ê¢ââ¬ route.ts           # GET/POST rascunho
+    ê¢ââ   ê¢ââ   ê¢ââê¢ââ¬ê¢ââ¬ publish/route.ts   # POST cria publicaêÂ§êÂ£o
+    ê¢ââ   ê¢ââê¢ââ¬ê¢ââ¬ api/visit/
+    ê¢ââ       ê¢ââê¢ââ¬ê¢ââ¬ route.ts           # POST registra visita (session_id + user_id opcional)
+    ê¢âÅê¢ââ¬ê¢ââ¬ components/
+    ê¢ââ   ê¢âÅê¢ââ¬ê¢ââ¬ reader/                # BookReader, SceneView, SpeechBubble, NarratorBox
+    ê¢ââ   ê¢âÅê¢ââ¬ê¢ââ¬ editor/                # StoryEditor, SceneEditorPanel, EditorToolbar
+    ê¢ââ   ê¢âÅê¢ââ¬ê¢ââ¬ auth/                  # AuthForm
+    ê¢ââ   ê¢ââê¢ââ¬ê¢ââ¬ ui/                   # BookShelf, ProgressDots, LikeButton, CommentSection, PublicationList
+    ê¢âÅê¢ââ¬ê¢ââ¬ lib/
+    ê¢ââ   ê¢âÅê¢ââ¬ê¢ââ¬ types.ts               # Scene, StoryData, Publication, Comment, UserProfile
+    ê¢ââ   ê¢âÅê¢ââ¬ê¢ââ¬ parseStory.ts
+    ê¢ââ   ê¢âÅê¢ââ¬ê¢ââ¬ getBooks.ts
+    ê¢ââ   ê¢âÅê¢ââ¬ê¢ââ¬ supabase-browser.ts    # Cliente browser (anon key)
+    ê¢ââ   ê¢âÅê¢ââ¬ê¢ââ¬ supabase-server.ts     # Cliente server (cookies)
+    ê¢ââ   ê¢ââê¢ââ¬ê¢ââ¬ supabase.ts            # Cliente admin (service role ê¢â¬â server only)
+    ê¢ââê¢ââ¬ê¢ââ¬ hooks/
+        ê¢âÅê¢ââ¬ê¢ââ¬ useTypewriter.ts
+        ê¢âÅê¢ââ¬ê¢ââ¬ useSwipe.ts
+        ê¢ââê¢ââ¬ê¢ââ¬ useSceneState.ts
 ```
 
 ---
@@ -95,7 +95,7 @@ comments      -- user_id, publication_id, text, created_at
 visits        -- session_id, user_id (nullable), created_at
 ```
 
-Todas as tabelas tÃªm RLS habilitada. Leitura de publicaÃ§Ãµes/likes/comentÃ¡rios Ã© pÃºblica; escrita requer autenticaÃ§Ã£o. A tabela `visits` permite insert pÃºblico (anon); leitura via service role apenas.
+Todas as tabelas têÂªm RLS habilitada. Leitura de publicaêÂ§êÂµes/likes/comentêÂ¡rios êÂ© pêÂºblica; escrita requer autenticaêÂ§êÂ£o. A tabela `visits` permite insert pêÂºblico (anon); leitura via service role apenas.
 
 ```sql
 -- criar tabela visits
@@ -111,11 +111,11 @@ create policy "visits insert public" on visits for insert with check (true);
 
 ---
 
-## VariÃ¡veis de ambiente
+## VariêÂ¡veis de ambiente
 
 ```env
 NEXT_PUBLIC_SUPABASE_URL=https://...supabase.co
-NEXT_PUBLIC_SUPABASE_ANON_KEY=eyJ...          # chave pÃºblica (anon)
+NEXT_PUBLIC_SUPABASE_ANON_KEY=eyJ...          # chave pêÂºblica (anon)
 SUPABASE_SERVICE_ROLE_KEY=eyJ...              # chave secreta (server only)
 ```
 
@@ -124,7 +124,7 @@ SUPABASE_SERVICE_ROLE_KEY=eyJ...              # chave secreta (server only)
 ## Formato do story.md
 
 ```markdown
-# TÃ­tulo do Livro
+# TêÂ­tulo do Livro
 
 <!-- scene: Cena_01_arquivo.png -->
 
@@ -135,14 +135,14 @@ SUPABASE_SERVICE_ROLE_KEY=eyJ...              # chave secreta (server only)
 
 <!-- scene: Cena_02_arquivo.png -->
 
-> PrÃ³xima cena...
+> PrêÂ³xima cena...
 ```
 
 **Regras:**
-- `<!-- scene: arquivo.png -->` â†’ nova cena
-- `> texto` â†’ narrador
-- `[Nome@esq]` ou `[Nome@dir]` â†’ balÃ£o esquerdo ou direito
-- `x=0.5 y=0.3` â†’ posiÃ§Ã£o do balÃ£o (fraÃ§Ã£o 0â€“1 do container); opcional
+- `<!-- scene: arquivo.png -->` ê¢â â nova cena
+- `> texto` ê¢â â narrador
+- `[Nome@esq]` ou `[Nome@dir]` ê¢â â balêÂ£o esquerdo ou direito
+- `x=0.5 y=0.3` ê¢â â posiêÂ§êÂ£o do balêÂ£o (fraêÂ§êÂ£o 0ê¢â¬â1 do container); opcional
 
 ---
 
@@ -159,9 +159,9 @@ npm run dev
 | `/` | Estante de livros |
 | `/sobre` | Como funciona |
 | `/login` | Login / registro |
-| `/book/livro1` | LÃª o livro 1 |
+| `/book/livro1` | LêÂª o livro 1 |
 | `/editor/livro1` | Editor (requer login) |
-| `/publication/[id]` | Visualiza publicaÃ§Ã£o com likes/comentÃ¡rios |
+| `/publication/[id]` | Visualiza publicaêÂ§êÂ£o com likes/comentêÂ¡rios |
 
 ---
 
@@ -169,13 +169,13 @@ npm run dev
 
 ```
 1. npm run dev
-2. Acesse /login â†’ crie sua conta
+2. Acesse /login ê¢â â crie sua conta
 3. Acesse /editor/livro1
-4. Escreva narrador e diÃ¡logos por cena
-5. Arraste os balÃµes para a posiÃ§Ã£o desejada
+4. Escreva narrador e diêÂ¡logos por cena
+5. Arraste os balêÂµes para a posiêÂ§êÂ£o desejada
 6. Ctrl+S para salvar rascunho no Supabase
-7. Clique em "ðŸš€ Publicar" â†’ redirecionado para /publication/[id]
-8. Outros usuÃ¡rios podem curtir e comentar
+7. Clique em "ê°Å¸Å¡â¬ Publicar" ê¢â â redirecionado para /publication/[id]
+8. Outros usuêÂ¡rios podem curtir e comentar
 ```
 
 ---
@@ -185,14 +185,14 @@ npm run dev
 ```bash
 # Inclua o livro inteiro; use -f porque imagens em books/ ficam ignoradas no git
 git add -f books/livro1/
-git commit -m "conteÃºdo livro1"
+git commit -m "conteêÂºdo livro1"
 git push   # Vercel faz build + deploy automaticamente (~90s)
 ```
 
-**Vercel:** configurar as trÃªs variÃ¡veis de ambiente em Settings â†’ Environment Variables.
+**Vercel:** configurar as trêÂªs variêÂ¡veis de ambiente em Settings ê¢â â Environment Variables.
 
-**Importante:** nunca commite `public/books/`; ele Ã© gerado no build a partir de `books/`.
+**Importante:** nunca commite `public/books/`; ele êÂ© gerado no build a partir de `books/`.
 
 ---
 
-Projeto adaptado da comunidade ARCKHÉ TDS - Marca Arckhe
+Projeto adaptado da comunidade ARCKHê TDS - ARCKHÉe
